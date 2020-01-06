@@ -1,1 +1,1 @@
-data modify entity a-a-a-a-a Pos set value [20000000.0d, 1.0d, 20000000.0d]
+tp a-a-a-a-a 20000000 1 20000000
