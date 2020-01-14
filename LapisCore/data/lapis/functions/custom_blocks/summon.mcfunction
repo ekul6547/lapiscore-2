@@ -1,0 +1,1 @@
+summon item ~ ~0.5 ~ {Item:{id:"minecraft:stone",Count:1b},Tags:["lapis.block.new_item"]}

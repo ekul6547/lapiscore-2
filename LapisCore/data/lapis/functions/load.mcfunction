@@ -1,13 +1,24 @@
+#> Generic and important objectives
+
 #core
 scoreboard objectives add lapis.const dummy
 scoreboard objectives add lapis.x dummy
 scoreboard objectives add lapis.y dummy
 scoreboard objectives add lapis.z dummy
+scoreboard objectives add lapis.prex dummy
+scoreboard objectives add lapis.prey dummy
+scoreboard objectives add lapis.prez dummy
 scoreboard objectives add lapis.rotx dummy
 scoreboard objectives add lapis.roty dummy
 
+
 #Stats
 scoreboard objectives add lapis.leave minecraft.custom:minecraft.leave_game
+scoreboard objectives add lapis.sneak minecraft.custom:minecraft.sneak_time
+
+
+#> Objectives specifc to specific util
+scoreboard objectives add lapis.step dummy
 
 
 scoreboard players set #lapis.world.seedmod lapis.const 67108864

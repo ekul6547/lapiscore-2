@@ -1,0 +1,1 @@
+execute if entity @s[tag=lapis.workbench.place] run function lapis:workbench/block/place

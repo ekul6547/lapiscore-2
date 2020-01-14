@@ -1,5 +1,6 @@
 {
 	"values": [
-		"#lapis:tick_entity/all_dimensions"
+		"#lapis:tick_entity/all_dimensions",
+		"lapis:_run/run_entity_nether"
 	]
 }
