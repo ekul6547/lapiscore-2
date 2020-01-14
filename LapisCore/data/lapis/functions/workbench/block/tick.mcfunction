@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ barrel[open=true] run function lapis:workbench/gui/tick
