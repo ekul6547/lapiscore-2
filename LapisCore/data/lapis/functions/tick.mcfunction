@@ -1,7 +1,5 @@
 function lapis:posi/spawn
 
-function lapis:_run/time
-
 function #lapis:tick/pre
 
 function lapis:posi/dim/overworld
