@@ -12,6 +12,8 @@ function lapis:posi/dim/end
 execute as a-a-a-a-a run function lapis:util/dim_me
 execute in minecraft:the_end run function #lapis:tick/end
 
+function lapis:_run/_tick
+
 function lapis:posi/dim/overworld
 execute as a-a-a-a-a run function lapis:util/dim_me
 function #lapis:tick/post

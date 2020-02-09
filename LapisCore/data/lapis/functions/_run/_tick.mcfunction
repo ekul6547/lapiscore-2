@@ -1,0 +1,1 @@
+execute as @e at @s run function lapis:_run/_switch

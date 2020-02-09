@@ -1,1 +1,0 @@
-execute as @e[nbt={Dimension:-1}] at @s run function #lapis:tick_entity/nether
