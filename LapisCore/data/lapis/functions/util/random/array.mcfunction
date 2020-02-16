@@ -1,4 +1,3 @@
-data modify storage lapis:core random.inputs set value ["zero","one","two","three","four","five"]
 data modify storage lapis:core random.array.items set from storage lapis:core random.inputs
 data modify storage lapis:core random.array.result set value {index:0,data:{}}
 scoreboard players set #lapis.const.10 lapis.const 10

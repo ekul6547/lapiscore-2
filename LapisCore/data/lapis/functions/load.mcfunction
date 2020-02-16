@@ -26,6 +26,7 @@ scoreboard players set #lapis.world.seedmod lapis.const 67108864
 execute store result score $lapis.world.seed lapis.const run seed
 scoreboard players operation $lapis.world.seed lapis.const %= #lapis.world.seedmod lapis.const
 scoreboard players set $lapis.world.dim lapis.const 0
+scoreboard players set #lapis.random.pre lapis.const 0
 
 function #lapis:load/pre
 execute in minecraft:overworld run function #lapis:load/overworld
