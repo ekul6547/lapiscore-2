@@ -1,0 +1,1 @@
+execute as @e[type=bee] at @s run function smallbees:perbee
