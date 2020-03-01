@@ -28,6 +28,16 @@ scoreboard players operation $lapis.world.seed lapis.const %= #lapis.world.seedm
 scoreboard players set $lapis.world.dim lapis.const 0
 scoreboard players set #lapis.random.pre lapis.const 0
 
+#Some constant numbers
+scoreboard players set #lapis.const.min1 lapis.const -1
+scoreboard players set #lapis.const.1 lapis.const 1
+scoreboard players set #lapis.const.2 lapis.const 2
+scoreboard players set #lapis.const.4 lapis.const 4
+scoreboard players set #lapis.const.10 lapis.const 10
+scoreboard players set #lapis.const.17 lapis.const 17
+scoreboard players set #lapis.const.256 lapis.const 256
+scoreboard players set #lapis.const.65536 lapis.const 65536
+
 function #lapis:load/pre
 execute in minecraft:overworld run function #lapis:load/overworld
 scoreboard players set $lapis.world.dim lapis.const -1

@@ -1,4 +1,3 @@
-scoreboard players set #lapis.const.2 lapis.const 2
 function lapis:entity/pos/get
 scoreboard players operation @s lapis.x *= #lapis.const.2 lapis.const
 scoreboard players operation @s lapis.y *= #lapis.const.2 lapis.const
