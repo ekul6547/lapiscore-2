@@ -2,7 +2,7 @@ data modify storage lapis:core random.array.items set from storage lapis:core ra
 data modify storage lapis:core random.array.result set value {index:0,data:{}}
 execute store result score #lapis.random.max lapis.const run data get storage lapis:core random.array.items
 scoreboard players operation #lapis.random.max lapis.const *= #lapis.const.10 lapis.const
-function lapis:util/random/from_time
+function lapis:util/random/rand
 scoreboard players operation $lapis.random.result lapis.const /= #lapis.const.10 lapis.const
 scoreboard players set $lapis.random.array.temp lapis.const 0
 execute store result storage lapis:core random.array.result.index int 1 run scoreboard players get $lapis.random.result lapis.const

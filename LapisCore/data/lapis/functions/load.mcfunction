@@ -32,9 +32,16 @@ scoreboard players set #lapis.random.pre lapis.const 0
 scoreboard players set #lapis.const.min1 lapis.const -1
 scoreboard players set #lapis.const.1 lapis.const 1
 scoreboard players set #lapis.const.2 lapis.const 2
+scoreboard players set #lapis.const.3 lapis.const 3
 scoreboard players set #lapis.const.4 lapis.const 4
+scoreboard players set #lapis.const.5 lapis.const 5
+scoreboard players set #lapis.const.6 lapis.const 6
+scoreboard players set #lapis.const.7 lapis.const 7
+scoreboard players set #lapis.const.8 lapis.const 8
+scoreboard players set #lapis.const.9 lapis.const 9
 scoreboard players set #lapis.const.10 lapis.const 10
 scoreboard players set #lapis.const.17 lapis.const 17
+scoreboard players set #lapis.const.45 lapis.const 45
 scoreboard players set #lapis.const.256 lapis.const 256
 scoreboard players set #lapis.const.65536 lapis.const 65536
 
