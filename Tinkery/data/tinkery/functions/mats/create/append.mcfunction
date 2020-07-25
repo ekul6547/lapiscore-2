@@ -1,0 +1,2 @@
+execute unless data storage tinkery:materials new.id run tellraw @p ["",{"text": "New Material missing ID: ","color":"dark_red"},{"nbt": "new","storage": "tinkery:materials"}]
+execute if data storage tinkery:materials new.id run data modify storage tinkery:materials list append from storage tinkery:materials new

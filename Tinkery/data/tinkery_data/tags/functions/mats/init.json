@@ -1,0 +1,7 @@
+{
+    "values": [
+        "tinkery_data:materials/iron/init",
+        "tinkery_data:materials/gold/init",
+        "tinkery_data:materials/diamond/init"
+    ]
+}
