@@ -1,0 +1,1 @@
+tag @e[tag=lapis.block.new,sort=nearest,limit=1] remove lapis.block.new

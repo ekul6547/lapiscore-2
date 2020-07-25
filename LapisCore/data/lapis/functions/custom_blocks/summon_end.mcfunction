@@ -1,0 +1,1 @@
+tag @s remove lapis.block.new_item

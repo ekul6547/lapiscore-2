@@ -1,0 +1,1 @@
+execute if score #lapis.workbench.test lapis.const matches 0 run function lapis:workbench/test/leather_and_string/test_recipe
