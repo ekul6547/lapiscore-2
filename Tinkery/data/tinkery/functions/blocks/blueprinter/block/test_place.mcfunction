@@ -1,0 +1,1 @@
+execute if entity @s[tag=tinkery.blueprinter.place] run function tinkery:blocks/blueprinter/block/place

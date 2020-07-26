@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ barrel[open=true] run function tinkery:blocks/blueprinter/gui/tick

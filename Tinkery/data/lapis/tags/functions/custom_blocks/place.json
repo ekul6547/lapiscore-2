@@ -1,5 +1,6 @@
 {
 	"values": [
-		"tinkery:blocks/constructor/block/test_place"
+		"tinkery:blocks/constructor/block/test_place",
+		"tinkery:blocks/blueprinter/block/test_place"
 	]
 }

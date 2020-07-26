@@ -1,5 +1,6 @@
 {
 	"values": [
-		"tinkery:blocks/constructor/block/item"
+		"tinkery:blocks/constructor/block/item",
+		"tinkery:blocks/blueprinter/block/item"
 	]
 }
