@@ -1,0 +1,1 @@
+execute if entity @s[tag=tinkery.constructor.place] run function tinkery:blocks/constructor/block/place
