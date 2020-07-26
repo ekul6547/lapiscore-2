@@ -1,3 +1,4 @@
+# replacing item with workbench after crafting it
 # get item count
 execute store result score #lapis.workbench.replace.count lapis.const run data get entity @s SelectedItem.Count 1
 # replace amount is min of count and crafts

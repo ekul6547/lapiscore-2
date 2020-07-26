@@ -1,5 +1,5 @@
 function lapis:posi/spawn
-
+function lapis:timer/do_timers
 function #lapis:tick/pre
 
 function lapis:posi/dim/overworld

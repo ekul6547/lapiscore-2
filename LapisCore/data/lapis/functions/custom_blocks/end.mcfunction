@@ -1,1 +1,0 @@
-tag @e[type=armor_stand,tag=lapis.new_block] remove lapis.new_block
