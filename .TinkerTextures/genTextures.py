@@ -184,7 +184,7 @@ def genAllLayerCombos(tool):
 
 def getLayerJSON(tool,colour,combo):
     space = namespace
-    pathToBaseTexture = "{0}/{1}".format(tool["name"],colour["name"],"default")
+    pathToBaseTexture = "{0}/{1}".format(tool["name"],colour["name"])
     if colour["name"] in useMinecraftNamespace and tool["name"] in defaultToolTypes:
         space = "minecraft"
         pathToBaseTexture = colourOverrides[colour["name"]].format(tool["base"])
