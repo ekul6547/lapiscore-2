@@ -23,12 +23,12 @@ def saveFile(path,contents):
 
 #Calc colours used
 customModelDataPrefix = 404
-startIndex = 10000
+startIndex = 0
 namespace = "tinkery"
 inputDir = next(os.walk(inputFolder))
 
-layerCount = 8
-gap = 2**layerCount
+maxLayerCount = 7
+gap = 2**maxLayerCount
 defaultToolTypes = ["pickaxe","axe","sword","shovel","hoe"]
 defaultMaterialTypes = ["wooden","stone","iron","golden","diamond","netherite"]
 colourNames = ["oak","spruce","birch","jungle","acacia","dark_oak","stone","iron","gold","diamond","netherite",
@@ -139,9 +139,18 @@ baseJSON = getFile(os.path.join(inputFolder,"base.json")) # {0} is path to defau
 layerJSON = getFile(os.path.join(inputFolder,"layer.json")) # {0} is bottom layer namespace, {1} is path to texture (item/ is prefixed), {2} is extra layers
 overrideJSON = '{{ "predicate": {{ "custom_model_data": {0} }}, "model": "{1}"}}'
 eachLayerJSON = '"layer{0}": "{1}:item/{2}/layers/{3}"'
+eachLayerJSONNone = '"layer{0}": "{1}:item/blank_layer"'
+
+def copyBlankLayerFile():
+    pathToBlank = os.path.join(inputFolder,"blank_layer.png")
+    pathToSave = os.path.join(namespaceTexturePath,"blank_layer.png")
+    shutil.copyfile(pathToBlank,pathToSave)
+
+copyBlankLayerFile()
+
 
 def formatOverride(cmdIndex,space,modelPath):
-    index = str(customModelDataPrefix) + str(cmdIndex)
+    index = str(customModelDataPrefix) + str(cmdIndex).zfill(4)
     path = "{0}:{1}".format(space,modelPath)
     return overrideJSON.format(index,path)
 
@@ -179,10 +188,12 @@ def getLayerJSON(tool,colour,combo):
     if colour["name"] in useMinecraftNamespace and tool["name"] in defaultToolTypes:
         space = "minecraft"
         pathToBaseTexture = colourOverrides[colour["name"]].format(tool["base"])
-    layersJsonsLines = ""
+    layersJsonsLines = []
     for c in combo["jsons"]:
-        layersJsonsLines += ",\n\t\t{0}".format(c)
-    fullJson = layerJSON.format(space,pathToBaseTexture,layersJsonsLines)
+        layersJsonsLines.append(",\n\t\t{0}".format(c))
+    # for i in range(len(layersJsonsLines) + 1,maxLayerCount):
+    #     layersJsonsLines.append(",\n\t\t{0}".format(eachLayerJSONNone.format(i,namespace)))
+    fullJson = layerJSON.format(space,pathToBaseTexture,"".join(layersJsonsLines))
     return fullJson
 
 def genAllToolOverrides(tool):
