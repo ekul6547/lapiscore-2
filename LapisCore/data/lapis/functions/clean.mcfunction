@@ -1,1 +1,1 @@
-function lapis:workbench/block/item
+function #lapis:custom_blocks/init
