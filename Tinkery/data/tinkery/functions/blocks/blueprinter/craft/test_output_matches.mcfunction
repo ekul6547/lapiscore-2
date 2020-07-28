@@ -1,3 +1,3 @@
 data modify storage tinkery:core blueprinter.output_match set from block ~ ~ ~ Items[{Slot:15b}]
 execute store success score #tinkery.blueprinter.output_match lapis.const run data modify storage tinkery:core blueprinter.output_match.tag.TinkeryBlueprint set from storage tinkery:core blueprinter.output
-execute if score #tinkery.blueprinter.output_match lapis.const matches 0 run function tinkery:blocks/blueprinter/create/find_create
+execute if score #tinkery.blueprinter.output_match lapis.const matches 0 run function tinkery:blocks/blueprinter/craft/find_create
