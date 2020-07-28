@@ -146,7 +146,7 @@ def copyBlankLayerFile():
     pathToSave = os.path.join(namespaceTexturePath,"blank_layer.png")
     shutil.copyfile(pathToBlank,pathToSave)
 
-copyBlankLayerFile()
+# copyBlankLayerFile()
 
 
 def formatOverride(cmdIndex,space,modelPath):
