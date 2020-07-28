@@ -1,0 +1,2 @@
+summon item ~ ~ ~ {Item:{id:"minecraft:stone",Count:1b},Tags:["tinkery.blueprint.new_item"]}
+execute as @e[type=item,tag=tinkery.blueprint.new_item,limit=1] run function tinkery:blueprints/_/summon/with_summon

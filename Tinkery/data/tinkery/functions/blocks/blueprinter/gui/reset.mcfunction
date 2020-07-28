@@ -16,8 +16,8 @@ execute unless predicate lapis:block/slot/16 run data modify block ~ ~ ~ Items a
 execute unless predicate lapis:block/slot/17 run data modify block ~ ~ ~ Items append value {Slot:17b,Count:1b,id:"minecraft:barrier",tag:{CustomModelData:404100,LapisRemove:1b,display:{Name:'{"text":""}'}}}
 
 execute unless predicate lapis:block/slot/18 run data modify block ~ ~ ~ Items append value {Slot:18b,Count:1b,id:"minecraft:barrier",tag:{CustomModelData:404100,LapisRemove:1b,display:{Name:'{"text":""}'}}}
-execute unless predicate lapis:block/slot/19 run data modify block ~ ~ ~ Items append value {Slot:19b,Count:1b,id:"minecraft:barrier",tag:{CustomModelData:404100,LapisRemove:1b,display:{Name:'{"text":""}'}}}
-execute unless predicate lapis:block/slot/20 run data modify block ~ ~ ~ Items append value {Slot:20b,Count:1b,id:"minecraft:barrier",tag:{CustomModelData:404100,LapisRemove:1b,display:{Name:'{"text":""}'}}}
+execute unless predicate lapis:block/slot/19 run data modify block ~ ~ ~ Items append value {Slot:19b,Count:1b,id:"minecraft:barrier",tag:{CustomModelData:4041000,LapisRemove:1b,display:{Name:'{"text":"Place Empty Blueprints Above","color":"blue"}'}}}
+execute unless predicate lapis:block/slot/20 run data modify block ~ ~ ~ Items append value {Slot:20b,Count:1b,id:"minecraft:barrier",tag:{CustomModelData:404120,LapisRemove:1b,display:{Name:'{"text":"Place Tool Above","color":"green"}'}}}
 execute unless predicate lapis:block/slot/21 run data modify block ~ ~ ~ Items append value {Slot:21b,Count:1b,id:"minecraft:barrier",tag:{CustomModelData:404100,LapisRemove:1b,display:{Name:'{"text":""}'}}}
 execute unless predicate lapis:block/slot/22 run data modify block ~ ~ ~ Items append value {Slot:22b,Count:1b,id:"minecraft:barrier",tag:{CustomModelData:404100,LapisRemove:1b,display:{Name:'{"text":""}'}}}
 execute unless predicate lapis:block/slot/23 run data modify block ~ ~ ~ Items append value {Slot:23b,Count:1b,id:"minecraft:barrier",tag:{CustomModelData:404100,LapisRemove:1b,display:{Name:'{"text":""}'}}}

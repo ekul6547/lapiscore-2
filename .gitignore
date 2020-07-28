@@ -1,4 +1,8 @@
 /**/.datapack
 /.datapack
 *.zip
+/Drones
+/SpaceCraft
+/.testdims
 /.TinkerTextures/output
+/LapisCore/data/lapis/predicates/step

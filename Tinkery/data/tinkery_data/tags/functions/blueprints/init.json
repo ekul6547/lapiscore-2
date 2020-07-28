@@ -1,0 +1,7 @@
+{
+    "values": [
+        "tinkery_data:blueprints/pickaxe/init",
+        "tinkery_data:blueprints/axe/init",
+        "tinkery_data:blueprints/shovel/init"
+    ]
+}

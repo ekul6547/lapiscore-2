@@ -1,0 +1,1 @@
+execute if data block ~ ~ ~ Items[{Slot:10b}].tag.TinkeryBlueprint if data block ~ ~ ~ Items[{Slot:11b}] unless data block ~ ~ ~ Items[{Slot:11b,tag:{LapisRemove:1b}}] run function tinkery:blocks/blueprinter/create/test_blueprint_count

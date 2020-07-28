@@ -1,0 +1,2 @@
+# Will create the tinkery:core blueprints.current.Item at current position
+data modify storage tinkery:core blueprints.blank.item set value {id:"minecraft:paper",tag:{display:{Name:'{"text":"Empty Blueprint","italic":false}'},TinkeryBlueprint:"blank",CustomModelData:4041000}}
