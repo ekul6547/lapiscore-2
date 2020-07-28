@@ -1,0 +1,1 @@
+scoreboard players set #tinkery.constructor.has_blueprint lapis.const 1

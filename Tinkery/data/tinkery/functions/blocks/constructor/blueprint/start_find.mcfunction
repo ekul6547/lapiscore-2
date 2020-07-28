@@ -1,0 +1,2 @@
+execute if score #tinkery.constructor.has_blueprint lapis.const matches 1 run function tinkery:blocks/constructor/blueprint/find
+execute if score #tinkery.constructor.has_blueprint lapis.const matches 0 run function tinkery:blocks/constructor/blueprint/make_full

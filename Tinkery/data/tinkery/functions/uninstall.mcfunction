@@ -22,6 +22,9 @@ scoreboard objectives remove tink.sneaking
 scoreboard objectives remove tink.menu
 scoreboard objectives remove tink.pre
 
+scoreboard objectives remove tink.blue
+scoreboard objectives remove tink.blue_pre
+
 scoreboard objectives remove tink.output
 scoreboard objectives remove tink.output_pre
 
