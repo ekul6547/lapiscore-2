@@ -42,6 +42,7 @@ scoreboard players set #lapis.const.9 lapis.const 9
 scoreboard players set #lapis.const.10 lapis.const 10
 scoreboard players set #lapis.const.17 lapis.const 17
 scoreboard players set #lapis.const.45 lapis.const 45
+scoreboard players set #lapis.const.128 lapis.const 128
 scoreboard players set #lapis.const.256 lapis.const 256
 scoreboard players set #lapis.const.65536 lapis.const 65536
 
