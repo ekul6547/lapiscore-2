@@ -1,0 +1,2 @@
+data modify storage tinkery:core item.format.tag.AttributeModifiers append value {AttributeName:"generic.armor",Name:"generic.armor",Slot:"mainhand",Amount:3,Operation:0,UUID:[I;-292883214,864961374,-1678190664,1928136364]}
+execute store result storage tinkery:core item.format.tag.AttributeModifiers[{Name:"generic.armor"}].Amount float 0.01 run scoreboard players get #tinkery.format.base_armor lapis.const

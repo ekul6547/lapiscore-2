@@ -1,0 +1,3 @@
+scoreboard players remove #tinkery.format.base_attackspeed lapis.const 400
+data modify storage tinkery:core item.format.tag.AttributeModifiers append value {AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Slot:"mainhand",Amount:4.0,Operation:0,UUID:[I;-292883216,864961376,-1678190666,1928136366]}
+execute store result storage tinkery:core item.format.tag.AttributeModifiers[{Name:"generic.attack_speed"}].Amount float 0.01 run scoreboard players get #tinkery.format.base_attackspeed lapis.const

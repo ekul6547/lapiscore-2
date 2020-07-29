@@ -1,0 +1,55 @@
+Tool ColorIndex
+CustomModelData = (ColorIndex * 128) + ToolIndex + 4040000
+0 - oak
+1 - spruce
+2 - birch
+3 - jungle
+4 - acacia
+5 - dark_oak
+6 - stone
+7 - iron
+8 - gold
+9 - diamond
+10 - netherite
+11 - white
+12 - orange
+13 - magenta
+14 - light_blue
+15 - yellow
+16 - lime
+17 - pink
+18 - gray
+19 - light_gray
+20 - cyan
+21 - purple
+22 - blue
+23 - brown
+24 - green
+25 - red
+26 - black
+
+
+
+Constructor:
+
+tinkery_data/tags/functions/constructor/init <- pre-create output items in storage
+tinkery_data/tags/functions/constructor/craft <- use for custom recipes
+tinkery_data/tags/functions/constructor/craft_post <- vanilla recipes done here
+
+
+TinkeryInit:{,
+    Type: (String), tool type
+    Traits: [(String) Array], add some strings here. Might be handy when testing tools for stuff. (such as "chargeable" to indicate it has power etc...)
+    Durability: (integer),
+    AttackSpeed: (float), has a -4 offset
+    AttackDamage: (float), has a -1 offset
+    Armor: (amount * 10),
+    Toughness: (amount * 10),
+    KnockbackResistance: (amount * 10),
+    MaxHealth: (amount * 10),
+    Luck: (amount * 10),
+    Attributes: [(String) Array], add default attributes ids
+    BlockList: [(String) Array], add blocked attributes ids,
+    ColorIndex: The start index of the custom model data. See above
+    CustomModelData: Will override the ColorIndex
+}

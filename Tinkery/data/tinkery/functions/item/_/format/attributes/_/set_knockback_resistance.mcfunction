@@ -1,0 +1,2 @@
+data modify storage tinkery:core item.format.tag.AttributeModifiers append value {AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Slot:"mainhand",Amount:3,Operation:0,UUID:[I;-292883212,864961372,-1678190662,1928136362]}
+execute store result storage tinkery:core item.format.tag.AttributeModifiers[{Name:"generic.knockback_resistance"}].Amount float 0.01 run scoreboard players get #tinkery.format.base_knockback_res lapis.const

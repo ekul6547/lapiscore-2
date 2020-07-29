@@ -1,0 +1,1 @@
+data modify storage tinkery:core tool.new set value {}

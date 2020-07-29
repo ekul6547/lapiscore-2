@@ -1,0 +1,6 @@
+execute if data storage tinkery:core item.format{id:"minecraft:wooden_pickaxe"} run function tinkery:item/_/format/attributes/pickaxe/wood
+execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:stone_pickaxe"} run function tinkery:item/_/format/attributes/pickaxe/stone
+execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:iron_pickaxe"} run function tinkery:item/_/format/attributes/pickaxe/iron
+execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:golden_pickaxe"} run function tinkery:item/_/format/attributes/pickaxe/gold
+execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:diamond_pickaxe"} run function tinkery:item/_/format/attributes/pickaxe/diamond
+execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:netherite_pickaxe"} run function tinkery:item/_/format/attributes/pickaxe/netherite

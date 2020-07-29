@@ -1,0 +1,1 @@
+execute if data storage tinkery:core item.format.tag.TinkeryInit run function tinkery:item/_/format/test_type

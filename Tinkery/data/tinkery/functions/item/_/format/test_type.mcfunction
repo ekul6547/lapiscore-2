@@ -1,0 +1,2 @@
+execute unless data storage tinkery:core item.format.tag.TinkeryInit.Type run function tinkery:item/_/format/error_type
+execute if data storage tinkery:core item.format.tag.TinkeryInit.Type run function tinkery:item/_/format/start

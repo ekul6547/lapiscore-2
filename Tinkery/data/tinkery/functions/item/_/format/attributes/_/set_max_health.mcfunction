@@ -1,0 +1,2 @@
+data modify storage tinkery:core item.format.tag.AttributeModifiers append value {AttributeName:"generic.max_health",Name:"generic.max_health",Slot:"mainhand",Amount:3,Operation:0,UUID:[I;-292883211,864961371,-1678190661,1928136361]}
+execute store result storage tinkery:core item.format.tag.AttributeModifiers[{Name:"generic.max_health"}].Amount float 0.01 run scoreboard players get #tinkery.format.base_max_health lapis.const
