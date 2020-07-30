@@ -1,0 +1,25 @@
+Tick System
+- Per Slot tick (main, offhand, armors)
+- Any tick (run from all above)
+- Post tick store (store values such as damage back to original item)
+
+Damage System
+- Compare previous damage to current, instead of checking loads of dummy values
+
+Attribute System
+
+Recipe Books
+
+Blank Blueprint recipe
+
+All block recipes
+
+All Blueprints
+
+All Constructor recipes
+
+Armor
+
+Smeltery
+
+All Smeltery Recipes

@@ -53,3 +53,22 @@ TinkeryInit:{,
     ColorIndex: The start index of the custom model data. See above
     CustomModelData: Will override the ColorIndex
 }
+
+
+
+Tick:
+#tinkery_data:tick/slot/XXXX
+Runs every tick when equipped in slots
+Item found at `tinkery:core tick.item`
+- mainhand
+- offhand
+- helmet
+- chestplate
+- leggings
+- boots
+
+- any - runs for all the above
+
+- #tinkery:tick/slot/post_XXXX runs after the above, and is mainly to assist if needing to store any values back into item in player's inventory (such as durability)
+
+- Damage is automatically calculated is post tick, so during tick, add or subtract to the item.tag.Damage value as you please

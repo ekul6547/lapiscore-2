@@ -44,6 +44,7 @@ scoreboard players set #lapis.const.17 lapis.const 17
 scoreboard players set #lapis.const.45 lapis.const 45
 scoreboard players set #lapis.const.128 lapis.const 128
 scoreboard players set #lapis.const.256 lapis.const 256
+scoreboard players set #lapis.const.1000 lapis.const 1000
 scoreboard players set #lapis.const.65536 lapis.const 65536
 
 function #lapis:load/pre
