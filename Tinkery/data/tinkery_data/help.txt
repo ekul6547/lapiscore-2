@@ -32,9 +32,9 @@ CustomModelData = (ColorIndex * 128) + ToolIndex + 4040000
 
 Constructor:
 
-tinkery_data/tags/functions/constructor/init <- pre-create output items in storage
-tinkery_data/tags/functions/constructor/craft <- use for custom recipes
-tinkery_data/tags/functions/constructor/craft_post <- vanilla recipes done here
+tinkery_data/tags/functions/blocks/constructor/init <- pre-create output items in storage
+tinkery_data/tags/functions/blocks/constructor/craft <- use for custom recipes
+tinkery_data/tags/functions/blocks/constructor/craft_post <- vanilla recipes done here
 
 
 TinkeryInit:{,
