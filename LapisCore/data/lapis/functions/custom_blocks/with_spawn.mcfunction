@@ -1,4 +1,4 @@
-execute if data storage lapis:core customblock.BlockName run data modify storage lapis:core customblock.armor_stand.ArmorItems[3].tag.BlockName set from storage lapis:core customblock.BlockName
+execute if data storage lapis:core customblock.BlockDrop run data modify storage lapis:core customblock.armor_stand.ArmorItems[3].tag.BlockDrop set from storage lapis:core customblock.BlockDrop
 data modify entity @s {} merge from storage lapis:core customblock.armor_stand
 execute unless entity @s[tag=lapis.block] run tag @s add lapis.block
 

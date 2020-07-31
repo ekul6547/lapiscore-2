@@ -1,2 +1,2 @@
-data modify storage lapis:core customblock.matchName set from entity @s ArmorItems[3].tag.BlockName
-execute as @e[type=item,distance=..2] run function lapis:custom_blocks/item_del/test
+data modify storage lapis:core customblock.matchDrop set from entity @s ArmorItems[3].tag.BlockDrop
+execute as @e[type=item,distance=..2,predicate=lapis:entity/has_name_not_remove] run function lapis:custom_blocks/item_del/test

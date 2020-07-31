@@ -11,7 +11,7 @@ execute unless predicate lapis:block/slot/15 run data modify block ~ ~ ~ Items a
 execute unless predicate lapis:block/slot/17 run data modify block ~ ~ ~ Items append value {Slot:17b,Count:1b,id:"minecraft:barrier",tag:{CustomModelData:404100,LapisRemove:1b,display:{Name:'{"text":""}'}}}
 
 execute unless predicate lapis:block/slot/18 run data modify block ~ ~ ~ Items append value {Slot:18b,Count:1b,id:"minecraft:barrier",tag:{CustomModelData:404100,LapisRemove:1b,display:{Name:'{"text":""}'}}}
-execute unless predicate lapis:block/slot/19 run data modify block ~ ~ ~ Items append value {Slot:19b,Count:1b,id:"minecraft:barrier",tag:{CustomModelData:404100,LapisRemove:1b,display:{Name:'{"text":""}'}}}
+execute unless predicate lapis:block/slot/19 run data modify block ~ ~ ~ Items append value {Slot:19b,Count:1b,id:"minecraft:barrier",tag:{CustomModelData:4041000,LapisRemove:1b,display:{Name:'{"text":"Place Blueprint Above","color":"blue"}'}}}
 execute unless predicate lapis:block/slot/20 run data modify block ~ ~ ~ Items append value {Slot:20b,Count:1b,id:"minecraft:barrier",tag:{CustomModelData:404100,LapisRemove:1b,display:{Name:'{"text":""}'}}}
 execute unless predicate lapis:block/slot/24 run data modify block ~ ~ ~ Items append value {Slot:24b,Count:1b,id:"minecraft:barrier",tag:{CustomModelData:404100,LapisRemove:1b,display:{Name:'{"text":""}'}}}
 execute unless predicate lapis:block/slot/25 run data modify block ~ ~ ~ Items append value {Slot:25b,Count:1b,id:"minecraft:barrier",tag:{CustomModelData:404100,LapisRemove:1b,display:{Name:'{"text":""}'}}}

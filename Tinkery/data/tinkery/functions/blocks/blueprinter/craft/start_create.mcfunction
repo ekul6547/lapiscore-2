@@ -1,4 +1,4 @@
-data modify storage tinkery:core blueprinter set value {}
+data remove storage tinkery:core blueprinter.output
 data modify storage tinkery:core blueprinter.blanks set from block ~ ~ ~ Items[{Slot:10b}]
 data modify storage tinkery:core blueprinter.tool set from block ~ ~ ~ Items[{Slot:11b}]
 
