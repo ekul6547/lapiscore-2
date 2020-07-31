@@ -1,0 +1,30 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "nbt": "{Items:[{Slot:11b}]}"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "nbt": "{Items:[{Slot:14b}]}"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
