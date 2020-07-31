@@ -1,0 +1,26 @@
+Modifier
+
+Attribute System
+
+Tool Lore
+- Tinkery Enabled!
+- Durability
+- Attributes[]
+
+Lapis Workbench using advancedments and knowledge book
+
+Recipe Books
+
+Blank Blueprint recipe
+
+All block recipes
+
+All Blueprints
+
+All Constructor recipes
+
+Armor
+
+Smeltery
+
+All Smeltery Recipes

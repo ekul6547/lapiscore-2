@@ -22,6 +22,8 @@ scoreboard objectives add tink.sneaking minecraft.custom:minecraft.sneak_time
 scoreboard objectives add tink.menu dummy
 scoreboard objectives add tink.pre dummy
 
+scoreboard objectives add tink.pre.open dummy
+
 scoreboard objectives add tink.blue dummy
 scoreboard objectives add tink.blue_pre dummy
 
