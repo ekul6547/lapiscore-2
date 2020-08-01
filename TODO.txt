@@ -17,6 +17,8 @@ All block recipes
 
 All Blueprints
 
+Tool Index Custom Model Data
+
 All Constructor recipes
 
 Armor

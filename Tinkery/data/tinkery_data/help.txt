@@ -36,7 +36,7 @@ tinkery_data/tags/functions/blocks/constructor/init <- pre-create output items i
 tinkery_data/tags/functions/blocks/constructor/craft <- use for custom recipes
 tinkery_data/tags/functions/blocks/constructor/craft_post <- vanilla recipes done here
 
-
+Custom stuff to put on tool:
 TinkeryInit:{,
     Type: (String), tool type
     Traits: [(String) Array], add some strings here. Might be handy when testing tools for stuff. (such as "chargeable" to indicate it has power etc...)
@@ -51,7 +51,56 @@ TinkeryInit:{,
     Attributes: [(String) Array], add default attributes ids
     BlockList: [(String) Array], add blocked attributes ids,
     ColorIndex: The start index of the custom model data. See above
-    CustomModelData: Will override the ColorIndex
+    CustomModelData: Will override the ColorIndex,
+    PreventLayers: Prevent attribute layers being added
+}
+
+
+Attributes:
+
+tinkery_data/tags/functions/attributes/init <- initialise attributes
+tinkery_data/tags/functions/attributes/test <- test when applying materials
+tinkery_data/tags/functions/attributes/level_up <- called when an attribute levels up
+tinkery_data/tags/functions/attributes/custom_next <- called when calculating custom next operation (see below)
+
+
+#tinkery_data:attributes/init
+Attribute:{
+    id: (String),
+    name: (String),
+    layerIndex: (int), add 2^layerIndex to custom model data
+    current: (int), the current progress towards next level,
+    level: (int), the current level
+    maxLevel: (int), the highest level possible. Default 10
+    next: (int), The amount of items needed to reach the next level.
+        when current >= next the level is increased by 1, and next is recalculated. Current is not reset to 0
+    base: used to calculate next,
+    modi: a variable used to help calculate next,
+    offset: a static offset for next
+    operation: the way next is recalculated. Examples shown 
+        0: (level + modi) * base + offset,
+            difference between numbers doesn't change
+            with base = 16, modi = 1, offset = 0
+            0: 16, 1: 32, 48, 64, 80, 96, 112, 128, 144, 160, 176
+
+        1: (base * level^2) + (modi * level) + offset,
+            difference between numbers increases by base
+            with base = 8, modi = 24, offset = 16
+            0: 16, 1: 48, 96, 160, 240, 336, 448, 576, 720, 880, 1056
+                 +32,  +48, +64, +80, +96,+112,+128,+144,+160,+176
+           
+        2: base * (modi ^ level) + offset,
+            difference is multiplied by modi
+            with base = 8, modi = 2, offset = 0
+            modi = 2, so difference is doubled
+            0: 16, 1: 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384
+                  +16   +32,+64,+128,+256,+512,+1024,+2048,+4096,+8192
+
+        -1: custom,
+            this calls the tag #tinkery_data:attributes/custom_next
+            make sure to do extra checks, to not blanket calculate for all custom next calculates (such as put a custom nbt tag like: {MyCustomOperation:123})
+            You can find the attribute data in:
+            storage tinkery:recipes attributes.current
 }
 
 

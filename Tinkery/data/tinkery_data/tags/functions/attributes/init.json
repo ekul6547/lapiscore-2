@@ -1,0 +1,7 @@
+{
+    "values": [
+        "tinkery_data:attributes/durability/init",
+        "tinkery_data:attributes/looting/init",
+        "tinkery_data:attributes/mending/init"
+    ]
+}
