@@ -1,1 +1,1 @@
-data modify storage tinkery:recipes attributes.new set value {name:"Unnamed Attribute",current:0,operation:0,base:16,modi:1,offset:0,level:0}
+data modify storage tinkery:recipes attributes.new set value {name:"Unnamed Attribute",current:0,operation:0,base:16,modi:1,offset:0,level:0,maxLevel:10}

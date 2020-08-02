@@ -40,7 +40,16 @@ scoreboard players set #lapis.const.7 lapis.const 7
 scoreboard players set #lapis.const.8 lapis.const 8
 scoreboard players set #lapis.const.9 lapis.const 9
 scoreboard players set #lapis.const.10 lapis.const 10
+scoreboard players set #lapis.const.11 lapis.const 11
+scoreboard players set #lapis.const.12 lapis.const 12
+scoreboard players set #lapis.const.13 lapis.const 13
+scoreboard players set #lapis.const.14 lapis.const 14
+scoreboard players set #lapis.const.15 lapis.const 15
+scoreboard players set #lapis.const.16 lapis.const 16
 scoreboard players set #lapis.const.17 lapis.const 17
+scoreboard players set #lapis.const.18 lapis.const 18
+scoreboard players set #lapis.const.19 lapis.const 19
+scoreboard players set #lapis.const.20 lapis.const 20
 scoreboard players set #lapis.const.45 lapis.const 45
 scoreboard players set #lapis.const.128 lapis.const 128
 scoreboard players set #lapis.const.256 lapis.const 256

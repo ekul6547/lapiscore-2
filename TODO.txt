@@ -2,12 +2,25 @@ Modifier
 
 Attribute System
 
+Attribute tool creation init:
+Loop:
+- Find attribute from list[0]
+- set level
+- Recalculate next
+- set current = next
+- Add to Attributes
+
+
 Tool Lore
 - Tinkery Enabled!
 - Durability
 - Attributes[]
 
 Lapis Workbench using advancedments and knowledge book
+
+Give self mining fatigue to stop self from mining when durability is 1
+and weakness
+dont do Tinkery tick when items are "broken"
 
 Recipe Books
 

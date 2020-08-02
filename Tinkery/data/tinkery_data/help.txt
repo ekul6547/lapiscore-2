@@ -48,8 +48,8 @@ TinkeryInit:{,
     KnockbackResistance: (amount * 10),
     MaxHealth: (amount * 10),
     Luck: (amount * 10),
-    Attributes: [(String) Array], add default attributes ids
-    BlockList: [(String) Array], add blocked attributes ids,
+    Attributes: [Array], add default attributes ids, like this: [{id:"durability"}]
+    BlockList: [Array], add blocked attributes ids, like this: [{id:"looting"}]
     ColorIndex: The start index of the custom model data. See above
     CustomModelData: Will override the ColorIndex,
     PreventLayers: Prevent attribute layers being added
@@ -59,10 +59,6 @@ TinkeryInit:{,
 Attributes:
 
 tinkery_data/tags/functions/attributes/init <- initialise attributes
-tinkery_data/tags/functions/attributes/test <- test when applying materials
-tinkery_data/tags/functions/attributes/level_up <- called when an attribute levels up
-tinkery_data/tags/functions/attributes/custom_next <- called when calculating custom next operation (see below)
-
 
 #tinkery_data:attributes/init
 Attribute:{
@@ -81,20 +77,20 @@ Attribute:{
         0: (level + modi) * base + offset,
             difference between numbers doesn't change
             with base = 16, modi = 1, offset = 0
-            0: 16, 1: 32, 48, 64, 80, 96, 112, 128, 144, 160, 176
+            0: 16, 1: 32, 48, 64, 80, 96, 112, 128, 144, 160
 
         1: (base * level^2) + (modi * level) + offset,
             difference between numbers increases by base
             with base = 8, modi = 24, offset = 16
-            0: 16, 1: 48, 96, 160, 240, 336, 448, 576, 720, 880, 1056
-                 +32,  +48, +64, +80, +96,+112,+128,+144,+160,+176
+            0: 16, 1: 48, 96, 160, 240, 336, 448, 576, 720, 880
+                 +32,  +48, +64, +80, +96,+112,+128,+144,+160
            
         2: base * (modi ^ level) + offset,
             difference is multiplied by modi
             with base = 8, modi = 2, offset = 0
             modi = 2, so difference is doubled
-            0: 16, 1: 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384
-                  +16   +32,+64,+128,+256,+512,+1024,+2048,+4096,+8192
+            0: 16, 1: 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192
+                  +16   +32,+64,+128,+256,+512,+1024,+2048,+4096
 
         -1: custom,
             this calls the tag #tinkery_data:attributes/custom_next
@@ -103,6 +99,52 @@ Attribute:{
             storage tinkery:recipes attributes.current
 }
 
+Testing:
+tinkery_data/tags/functions/blocks/modifier/test_pre <- first attempt of testing. Use to override other datapacks
+tinkery_data/tags/functions/blocks/modifier/test <- main test stage here. Use this one for your own attributes
+tinkery_data/tags/functions/blocks/modifier/test_post <- last test stage. Used for default tinkery attributes
+
+storage of modifier items:
+storage tinkery:core modifier.test.tool <- tool (slot 11)
+storage tinkery:core modifier.test.first <- item 1 (slot 14)
+storage tinkery:core modifier.test.second <- item 2 (slot 15)
+
+remember to test the BlockList:
+execute unless data storage tinkery:core modifier.test.tool.tag.Tinkery.BlockList[{id:"durability"}]
+
+also test that there isn't already an output
+also also test that there's only 1 item, and not 2
+
+example of it in 1 line:
+execute unless data storage tinkery:core modifier.output if data storage tinkery:core modifier.test.first{id:"minecraft:lapis_block"} unless data storage tinkery:core modifier.test.tool.tag.Tinkery.BlockList[{id:"looting"}] run data modify storage tinkery:core modifier.output set value {id:"looting",increase:9}
+
+output, id of attribute:
+storage tinkery:core modifier.output
+set to the following:
+{id:"ID",amount:1}
+- id - the attribute's id
+- increase - the amount to add to current. default is 1
+- increaseLevel - the amount to add to level. default is 1
+- remove - the amount of items to remove from item 1. default is 1
+- remove2 - the amount of items to remove from item 2. default is 0
+
+
+Steps when increasing current:
+current = current + increase
+if current >= next : level += 1
+#functions tinkery_data:attributes/level_up
+re-calculate next
+
+the level_up is done before recalculating next, so that you can decrease the level if you want to instead.
+
+tinkery_data/tags/functions/attributes/level_up <- called when an attribute levels up. use to do stuff like set enchantments etc...
+
+attribute nbt found here (modifications will be saved to item):
+storage tinkery:recipes attributes.current
+tool nbt found here (modifications will be saved to item):
+storage tinkery:core modifier.test.tool
+
+tinkery_data/tags/functions/attributes/custom_next <- called when calculating custom next operation (see above)
 
 
 Tick:
