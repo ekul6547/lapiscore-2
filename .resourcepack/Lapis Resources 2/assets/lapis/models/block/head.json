@@ -1,0 +1,9 @@
+{
+	"parent": "lapis:block/block",
+	"display": {
+		"head": {
+			"translation": [-3, -3, -3],
+			"scale": [0.6225, 0.6225, 0.6225]
+		}
+	}
+}

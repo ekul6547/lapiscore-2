@@ -1,0 +1,9 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "tinkery:item/pickaxe/red",
+		"layer1": "tinkery:item/pickaxe/layers/durability",
+		"layer2": "tinkery:item/pickaxe/layers/mending",
+		"layer3": "tinkery:item/pickaxe/layers/silk_touch"
+    }
+}

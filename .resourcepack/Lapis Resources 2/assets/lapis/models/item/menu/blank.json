@@ -1,0 +1,13 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "lapis:gui/blank",
+		"layer1": "lapis:gui/blank"
+	},
+	"display": {
+		"gui": {
+			"scale": [1.12, 1.12, 1]
+		}
+	}
+}

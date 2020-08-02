@@ -1,0 +1,6 @@
+{
+	"parent": "lapis:block/cube_all",
+	"textures": {
+		"all": "lapis:block/missing"
+	}
+}

@@ -1,0 +1,25 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/paper"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 4041000}, "model": "tinkery:item/blueprint/blank"},
+        { "predicate": {"custom_model_data": 4041001}, "model": "tinkery:item/blueprint/pickaxe"},
+        { "predicate": {"custom_model_data": 4041002}, "model": "tinkery:item/blueprint/axe"},
+        { "predicate": {"custom_model_data": 4041003}, "model": "tinkery:item/blueprint/shovel"},
+        { "predicate": {"custom_model_data": 4041004}, "model": "tinkery:item/blueprint/sword"},
+        { "predicate": {"custom_model_data": 4041005}, "model": "tinkery:item/blueprint/hoe"},
+        { "predicate": {"custom_model_data": 4041006}, "model": "tinkery:item/blueprint/helmet"},
+        { "predicate": {"custom_model_data": 4041007}, "model": "tinkery:item/blueprint/chestplate"},
+        { "predicate": {"custom_model_data": 4041008}, "model": "tinkery:item/blueprint/leggings"},
+        { "predicate": {"custom_model_data": 4041009}, "model": "tinkery:item/blueprint/boots"},
+        { "predicate": {"custom_model_data": 4041100}, "model": "tinkery:item/cast/blank"},
+        { "predicate": {"custom_model_data": 4041101}, "model": "tinkery:item/cast/ingot"},
+        { "predicate": {"custom_model_data": 4041102}, "model": "tinkery:item/cast/nugget"},
+        { "predicate": {"custom_model_data": 4041103}, "model": "tinkery:item/cast/stick"},
+        { "predicate": {"custom_model_data": 4041104}, "model": "tinkery:item/cast/gem"},
+        { "predicate": {"custom_model_data": 4041105}, "model": "tinkery:item/cast/dust"},
+        { "predicate": {"custom_model_data": 4041106}, "model": "tinkery:item/cast/horse_armor"}
+    ]
+}

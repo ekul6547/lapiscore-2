@@ -1,0 +1,8 @@
+{
+	"parent": "lapis:block/cube_bottom_top",
+	"textures": {
+		"side": "lapis:block/workbench_side",
+		"bottom": "lapis:block/workbench_bottom",
+		"top": "lapis:block/workbench_top"
+	}
+}

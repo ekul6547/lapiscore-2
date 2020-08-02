@@ -1,0 +1,6 @@
+{
+    "parent": "tinkery:item/cast/blank",
+    "textures": {
+        "layer1": "lapis:gui/nugget"
+    }
+}

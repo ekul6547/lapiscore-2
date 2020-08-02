@@ -1,0 +1,6 @@
+{
+    "parent": "tinkery:item/menu/pattern",
+    "textures": {
+        "layer0": "lapis:invisible"
+    }
+}

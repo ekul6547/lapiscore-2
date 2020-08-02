@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/stone_shovel",
+		"layer1": "tinkery:item/shovel/layers/silk_touch"
+    }
+}

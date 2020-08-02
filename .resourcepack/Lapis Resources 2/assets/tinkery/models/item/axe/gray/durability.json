@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "tinkery:item/axe/gray",
+		"layer1": "tinkery:item/axe/layers/durability"
+    }
+}

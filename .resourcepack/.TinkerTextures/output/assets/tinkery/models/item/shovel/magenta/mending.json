@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "tinkery:item/shovel/magenta",
+		"layer1": "tinkery:item/shovel/layers/mending"
+    }
+}

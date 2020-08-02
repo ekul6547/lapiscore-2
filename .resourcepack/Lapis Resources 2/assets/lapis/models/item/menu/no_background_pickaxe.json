@@ -1,0 +1,11 @@
+{
+    "parent": "lapis:item/menu/pickaxe",
+    "textures": {
+        "layer0": "lapis:invisible"
+    },
+	"display": {
+		"gui": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

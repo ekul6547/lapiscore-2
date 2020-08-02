@@ -1,0 +1,9 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "tinkery:item/hoe/birch",
+		"layer1": "tinkery:item/hoe/layers/durability",
+		"layer2": "tinkery:item/hoe/layers/mending",
+		"layer3": "tinkery:item/hoe/layers/silk_touch"
+    }
+}

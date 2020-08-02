@@ -1,0 +1,9 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "tinkery:item/shovel/light_blue",
+		"layer1": "tinkery:item/shovel/layers/durability",
+		"layer2": "tinkery:item/shovel/layers/mending",
+		"layer3": "tinkery:item/shovel/layers/silk_touch"
+    }
+}

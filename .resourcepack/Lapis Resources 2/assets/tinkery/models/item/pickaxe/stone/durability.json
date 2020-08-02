@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/stone_pickaxe",
+		"layer1": "tinkery:item/pickaxe/layers/durability"
+    }
+}

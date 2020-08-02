@@ -1,0 +1,6 @@
+{
+    "parent": "lapis:item/menu/blank",
+    "textures": {
+        "layer1": "lapis:gui/flame_on"
+    }
+}

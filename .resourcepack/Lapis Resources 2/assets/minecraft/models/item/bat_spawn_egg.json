@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/spawn_egg"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 404}, "model": "lapis:block/missing"},
+        { "predicate": {"custom_model_data": 4040}, "model": "lapis:block/workbench"},
+        { "predicate": {"custom_model_data": 4042}, "model": "lapis:block/invisible"},
+        { "predicate": {"custom_model_data": 4041000}, "model": "tinkery:block/blueprinter"},
+        { "predicate": {"custom_model_data": 4041001}, "model": "tinkery:block/constructor"},
+        { "predicate": {"custom_model_data": 4041002}, "model": "tinkery:block/modifier"}
+    ]
+}

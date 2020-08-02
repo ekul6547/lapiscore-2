@@ -1,0 +1,10 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "tinkery:item/axe/jungle",
+		"layer1": "tinkery:item/axe/layers/durability",
+		"layer2": "tinkery:item/axe/layers/mending",
+		"layer3": "tinkery:item/axe/layers/sharpened",
+		"layer4": "tinkery:item/axe/layers/fire"
+    }
+}

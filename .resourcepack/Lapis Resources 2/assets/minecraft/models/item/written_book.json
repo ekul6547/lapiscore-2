@@ -1,0 +1,19 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/written_book"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 404100}, "model": "lapis:item/book/book_cream"},
+        { "predicate": {"custom_model_data": 404101}, "model": "lapis:item/book/book_green"},
+        { "predicate": {"custom_model_data": 404102}, "model": "lapis:item/book/book_black"},
+        { "predicate": {"custom_model_data": 404103}, "model": "lapis:item/book/book_red"},
+        { "predicate": {"custom_model_data": 404104}, "model": "lapis:item/book/book_blue"},
+        { "predicate": {"custom_model_data": 404105}, "model": "lapis:item/book/book_orange"},
+        { "predicate": {"custom_model_data": 404106}, "model": "lapis:item/book/book_yellow"},
+        { "predicate": {"custom_model_data": 404107}, "model": "lapis:item/book/book_gray"},
+        { "predicate": {"custom_model_data": 404108}, "model": "lapis:item/book/book_white"},
+        { "predicate": {"custom_model_data": 404109}, "model": "lapis:item/book/book_dark_purple"},
+        { "predicate": {"custom_model_data": 404110}, "model": "lapis:item/book/book_pink"}
+    ]
+}

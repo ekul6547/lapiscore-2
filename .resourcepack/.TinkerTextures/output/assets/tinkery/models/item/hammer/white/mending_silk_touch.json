@@ -1,0 +1,8 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "tinkery:item/hammer/white",
+		"layer1": "tinkery:item/hammer/layers/mending",
+		"layer2": "tinkery:item/hammer/layers/silk_touch"
+    }
+}

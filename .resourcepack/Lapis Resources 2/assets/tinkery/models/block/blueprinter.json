@@ -1,0 +1,8 @@
+{
+    "parent": "lapis:block/cube_bottom_top",
+    "textures": {
+        "side": "tinkery:block/blueprinter_side",
+        "bottom": "tinkery:block/blueprinter_bottom",
+        "top": "tinkery:block/blueprinter_top"
+    }
+}

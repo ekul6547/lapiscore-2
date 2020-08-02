@@ -1,0 +1,9 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/netherite_axe",
+		"layer1": "tinkery:item/axe/layers/mending",
+		"layer2": "tinkery:item/axe/layers/sharpened",
+		"layer3": "tinkery:item/axe/layers/fire"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "tinkery:item/shovel/acacia",
+		"layer1": "tinkery:item/shovel/layers/durability"
+    }
+}

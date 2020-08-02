@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "tinkery:item/sword/oak",
+		"layer1": "tinkery:item/sword/layers/mending"
+    }
+}

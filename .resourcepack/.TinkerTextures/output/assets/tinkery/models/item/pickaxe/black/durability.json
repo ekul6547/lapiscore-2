@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "tinkery:item/pickaxe/black",
+		"layer1": "tinkery:item/pickaxe/layers/durability"
+    }
+}

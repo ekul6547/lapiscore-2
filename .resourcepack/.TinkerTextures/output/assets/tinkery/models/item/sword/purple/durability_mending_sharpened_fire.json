@@ -1,0 +1,10 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "tinkery:item/sword/purple",
+		"layer1": "tinkery:item/sword/layers/durability",
+		"layer2": "tinkery:item/sword/layers/mending",
+		"layer3": "tinkery:item/sword/layers/sharpened",
+		"layer4": "tinkery:item/sword/layers/fire"
+    }
+}
