@@ -49,7 +49,7 @@ TinkeryInit:{,
     MaxHealth: (amount * 10),
     Luck: (amount * 10),
     Attributes: [Array], add default attributes ids, like this: [{id:"durability"}]
-    BlockList: [Array], add blocked attributes ids, like this: [{id:"looting"}]
+    BlockList: [Array], add blocked attributes ids, like this: [{id:"looting"},{id:"fortune"}]
     ColorIndex: The start index of the custom model data. See above
     CustomModelData: Will override the ColorIndex,
     PreventLayers: Prevent attribute layers being added
@@ -64,6 +64,7 @@ tinkery_data/tags/functions/attributes/init <- initialise attributes
 Attribute:{
     id: (String),
     name: (String),
+    block: [(Array)], append these to the attribute block list on init,
     layerIndex: (int), add 2^layerIndex to custom model data
     current: (int), the current progress towards next level,
     level: (int), the current level
