@@ -1,7 +1,7 @@
 #increase durability by 10% of original
 
 execute store result score #tinkery.attr.dur.level lapis.const run data get storage tinkery:recipes attributes.current.level
-execute store result score #tinkery.attr.dur.durOrig lapis.const run data get storage tinkery:core modifier.test.tool.tag.Tinkery.OriginalDurability
+execute store result score #tinkery.attr.dur.durOrig lapis.const run data get storage tinkery:core modifier.test.tool.tag.Tinkery.Durability.Original
 execute store result score #tinkery.attr.dur.durNow lapis.const run data get storage tinkery:core modifier.test.tool.tag.ctc.tool.durability
 
 # tellraw @p ["",{"text": "Orig: "},{"score": {"name": "#tinkery.attr.dur.durOrig","objective": "lapis.const"}}]

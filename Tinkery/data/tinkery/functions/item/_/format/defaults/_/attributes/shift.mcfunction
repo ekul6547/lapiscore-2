@@ -1,0 +1,1 @@
+data remove storage tinkery:core item.format.tag.TinkeryInit.Attributes[0]

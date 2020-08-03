@@ -34,7 +34,7 @@ scoreboard players operation #tinkery.durability.damage lapis.const /= #lapis.co
 scoreboard players operation #tinkery.durability.remains lapis.const = #tinkery.durability.max lapis.const
 scoreboard players operation #tinkery.durability.remains lapis.const -= #tinkery.durability.current lapis.const
 
-execute if score #tinkery.durability.remains lapis.const matches ..1 run scoreboard players add #tinkery.durability.damage lapis.const 1
+execute if score #tinkery.durability.remains lapis.const matches ..1 run scoreboard players add #tinkery.durability.damage lapis.const 2
 
 
 # tellraw @p ["",{"text": "Damage: "},{"score": {"name": "#tinkery.durability.damage","objective": "lapis.const"}}]

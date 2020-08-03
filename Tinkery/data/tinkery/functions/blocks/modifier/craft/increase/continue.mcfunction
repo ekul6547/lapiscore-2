@@ -7,4 +7,7 @@ execute if score #tinkery.modifier.current lapis.const matches 0.. if score #tin
 function tinkery:blocks/modifier/craft/increase/reduce
 
 data modify storage tinkery:core modifier.test.tool.tag.Tinkery.Attributes[0] set from storage tinkery:recipes attributes.current
-data modify block ~ ~ ~ Items append from storage tinkery:core modifier.test.tool
+
+data modify storage tinkery:core lore.item set from storage tinkery:core modifier.test.tool
+function tinkery:lore/lore_item
+data modify block ~ ~ ~ Items append from storage tinkery:core lore.item

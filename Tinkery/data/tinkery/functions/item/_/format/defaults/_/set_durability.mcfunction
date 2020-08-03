@@ -10,5 +10,5 @@ data modify storage tinkery:core item.format.tag.Tinkery.Durability set value {p
 execute store result storage tinkery:core item.format.tag.Tinkery.Durability.base int 1 run scoreboard players get #tinkery.format.base_durability lapis.const
 data modify storage tinkery:core item.format.tag.ctc.tool set value {damage:0,durability:0,broken:false}
 execute store result storage tinkery:core item.format.tag.ctc.tool.durability int 1 run scoreboard players get #tinkery.format.custom_durability lapis.const
-execute store result storage tinkery:core item.format.tag.Tinkery.OriginalDurability int 1 run scoreboard players get #tinkery.format.custom_durability lapis.const
+execute store result storage tinkery:core item.format.tag.Tinkery.Durability.Original int 1 run scoreboard players get #tinkery.format.custom_durability lapis.const
 execute if data storage tinkery:core item.format.tag.Damage run data modify storage tinkery:core item.format.tag.Tinkery.Durability.previous set from storage tinkery:core item.format.tag.Damage

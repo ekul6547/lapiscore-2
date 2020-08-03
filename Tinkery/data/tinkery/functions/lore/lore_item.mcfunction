@@ -1,0 +1,1 @@
+execute if data storage tinkery:core lore.item.id run function tinkery:lore/_/gen_lore

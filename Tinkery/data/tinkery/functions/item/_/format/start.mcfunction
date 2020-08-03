@@ -12,3 +12,7 @@ data modify storage tinkery:core item.format.tag.Tinkery.type set from storage t
 function tinkery:item/_/format/set_defaults
 
 data remove storage tinkery:core item.format.tag.TinkeryInit
+
+data modify storage tinkery:core lore.item set from storage tinkery:core item.format
+function tinkery:lore/lore_item
+data modify storage tinkery:core item.format set from storage tinkery:core lore.item
