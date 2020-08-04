@@ -1,0 +1,9 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+        "block": {
+            "block": "minecraft:barrel",
+            "nbt": "{Items:[{Slot:1b,id:\"minecraft:paper\"},{Slot:2b,id:\"minecraft:paper\"},{Slot:3b,id:\"minecraft:paper\"},{Slot:10b,id:\"minecraft:paper\"},{Slot:11b,id:\"minecraft:string\"},{Slot:12b,id:\"minecraft:paper\"},{Slot:19b,id:\"minecraft:paper\"},{Slot:20b,id:\"minecraft:paper\"},{Slot:21b,id:\"minecraft:paper\"}]}"
+        }
+    }
+}
