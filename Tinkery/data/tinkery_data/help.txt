@@ -55,6 +55,15 @@ TinkeryInit:{,
     PreventLayers: Prevent attribute layers being added
 }
 
+Common Traits:
+- melee
+- mine
+- unbreakable
+- dont-damage
+- armor
+- defense
+- ranged
+
 
 Attributes:
 
