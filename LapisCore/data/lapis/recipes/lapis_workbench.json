@@ -2,14 +2,14 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:lapis_lazuli"
+            "item": "minecraft:crafting_table"
         },
         {
             "item": "minecraft:crafting_table"
         }
     ],
     "result": {
-        "item": "minecraft:bat_spawn_egg",
+        "item": "minecraft:knowledge_book",
         "count": 1
     }
 }

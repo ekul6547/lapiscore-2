@@ -15,7 +15,7 @@ scoreboard objectives add lapis.roty dummy
 #Stats
 scoreboard objectives add lapis.leave minecraft.custom:minecraft.leave_game
 scoreboard objectives add lapis.sneak minecraft.custom:minecraft.sneak_time
-scoreboard objectives add lapis.bat.craft minecraft.crafted:minecraft.bat_spawn_egg
+# scoreboard objectives add lapis.bat.craft minecraft.crafted:minecraft.bat_spawn_egg
 
 
 #> Objectives specifc to specific util

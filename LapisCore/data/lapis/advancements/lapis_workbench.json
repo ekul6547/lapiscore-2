@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "lapis:lapis_workbench"
+            }
+        }
+    },
+    "rewards": {
+        "function": "lapis:workbench/replace/crafted"
+    }
+}
