@@ -21,6 +21,10 @@ scoreboard objectives add lapis.sneak minecraft.custom:minecraft.sneak_time
 #> Objectives specifc to specific util
 scoreboard objectives add lapis.step dummy
 
+scoreboard objectives add LapisBook trigger
+
+scoreboard players enable @a LapisBook
+
 
 scoreboard players set #lapis.world.seedmod lapis.const 67108864
 execute store result score $lapis.world.seed lapis.const run seed
@@ -55,6 +59,8 @@ scoreboard players set #lapis.const.128 lapis.const 128
 scoreboard players set #lapis.const.256 lapis.const 256
 scoreboard players set #lapis.const.1000 lapis.const 1000
 scoreboard players set #lapis.const.65536 lapis.const 65536
+
+tellraw @a ["",{"text":"Loaded "},{"text":"[Lapis Core] v1.0","color":"blue","clickEvent":{"action":"run_command","value":"/trigger LapisBook"},"hoverEvent":{"action":"show_text","value":"Click here to get the tutorial book"}},{"text":" By RE:Lapis","color":"gray"}]
 
 function #lapis:load/pre
 execute in minecraft:overworld run function #lapis:load/overworld
