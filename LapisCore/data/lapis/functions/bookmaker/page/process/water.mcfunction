@@ -1,0 +1,1 @@
+data modify storage lapis:core bookmaker.process.right set value '{"text":"\\ud07e\\ud004","font":"lapis:icons","color":"white"}'

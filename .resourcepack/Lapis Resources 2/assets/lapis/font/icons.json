@@ -7074,7 +7074,7 @@
             ]
         },{
             "type": "bitmap",
-            "file": "lapis:font/icon/rainbow.png",
+            "file": "lapis:font/icon/leather_boots.png",
             "ascent": 16,
             "height": 16,
             "chars": [
@@ -7082,7 +7082,7 @@
             ]
         },{
             "type": "bitmap",
-            "file": "lapis:font/icon/steel_block.png",
+            "file": "lapis:font/icon/leather_chestplate.png",
             "ascent": 16,
             "height": 16,
             "chars": [
@@ -7090,7 +7090,7 @@
             ]
         },{
             "type": "bitmap",
-            "file": "lapis:font/icon/steel_ingot.png",
+            "file": "lapis:font/icon/leather_helmet.png",
             "ascent": 16,
             "height": 16,
             "chars": [
@@ -7098,7 +7098,7 @@
             ]
         },{
             "type": "bitmap",
-            "file": "lapis:font/icon/steel_nugget.png",
+            "file": "lapis:font/icon/leather_horse_armor.png",
             "ascent": 16,
             "height": 16,
             "chars": [
@@ -7106,7 +7106,7 @@
             ]
         },{
             "type": "bitmap",
-            "file": "lapis:font/icon/stonecutter.png",
+            "file": "lapis:font/icon/leather_leggings.png",
             "ascent": 16,
             "height": 16,
             "chars": [
@@ -7114,7 +7114,7 @@
             ]
         },{
             "type": "bitmap",
-            "file": "lapis:font/icon/terminal.png",
+            "file": "lapis:font/icon/rainbow.png",
             "ascent": 16,
             "height": 16,
             "chars": [
@@ -7122,11 +7122,51 @@
             ]
         },{
             "type": "bitmap",
-            "file": "lapis:font/icon/workbench_top.png",
+            "file": "lapis:font/icon/steel_block.png",
             "ascent": 16,
             "height": 16,
             "chars": [
                 "\ud493"
+            ]
+        },{
+            "type": "bitmap",
+            "file": "lapis:font/icon/steel_ingot.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud494"
+            ]
+        },{
+            "type": "bitmap",
+            "file": "lapis:font/icon/steel_nugget.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud495"
+            ]
+        },{
+            "type": "bitmap",
+            "file": "lapis:font/icon/stonecutter.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud496"
+            ]
+        },{
+            "type": "bitmap",
+            "file": "lapis:font/icon/terminal.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud497"
+            ]
+        },{
+            "type": "bitmap",
+            "file": "lapis:font/icon/workbench_top.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud498"
             ]
         }
     ]

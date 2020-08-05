@@ -46,6 +46,7 @@ exclude = ["^\\.",".+_stem",".*glass_pane_top","^compass_([023]\\d|1[012345678])
 "grass_block_side_overlay","grindstone_.",".+_overlay","redstone_dust_","stonecutter_","tipped_arrow_head","turtle_egg_","clock_0?[^0]","sunflower_",".+door_","bamboo_s","campfire_log","cauldron_","composter_top","end_rod",
 "scaffolding_[sb]"]
 excludeBlock = ["kelp","lantern","seagrass","soul_lantern"]
+excludeItem = []
 
 paths = []
 index = 53248 #4096 * 13
@@ -118,7 +119,7 @@ version = "20w30a"
 
 doFolder("./icons/1","font/icon",True)
 doFolder("C:\\Users\\lukem\\Documents\\Games\\Minecraft Stuff\\Version Extracts\\"+version+"/assets/minecraft/textures/block","block",False,excludeBlock)
-doFolder("C:\\Users\\lukem\\Documents\\Games\\Minecraft Stuff\\Version Extracts\\"+version+"/assets/minecraft/textures/item","item",False)
+doFolder("C:\\Users\\lukem\\Documents\\Games\\Minecraft Stuff\\Version Extracts\\"+version+"/assets/minecraft/textures/item","item",False,excludeItem)
 doFolder("./icons","font/icon",True)
 paths_real = []
 for x in paths:

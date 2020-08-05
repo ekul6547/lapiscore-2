@@ -2,6 +2,12 @@
     "values": [
         "tinkery_data:blueprints/pickaxe/init",
         "tinkery_data:blueprints/axe/init",
-        "tinkery_data:blueprints/shovel/init"
+        "tinkery_data:blueprints/shovel/init",
+        "tinkery_data:blueprints/sword/init",
+        "tinkery_data:blueprints/hoe/init",
+        "tinkery_data:blueprints/helmet/init",
+        "tinkery_data:blueprints/chestplate/init",
+        "tinkery_data:blueprints/leggings/init",
+        "tinkery_data:blueprints/boots/init"
     ]
 }
