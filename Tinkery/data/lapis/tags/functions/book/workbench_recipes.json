@@ -1,5 +1,7 @@
 {
 	"values": [
-		"tinkery:book/workbench/blueprints"
+		"tinkery:book/workbench/blueprints_easy",
+		"tinkery:book/workbench/blueprints",
+		"tinkery:book/workbench/blueprinter"
 	]
 }

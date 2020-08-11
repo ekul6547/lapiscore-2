@@ -1,0 +1,2 @@
+#test durability
+execute unless data storage tinkery:core modifier.output if data storage tinkery:core modifier.test.first{id:"minecraft:netherite_ingot"} unless data storage tinkery:core modifier.test.second unless data storage tinkery:core modifier.test.tool.tag.Tinkery.BlockList[{id:"netherite_up"}] run data modify storage tinkery:core modifier.output set value {id:"netherite_up"}

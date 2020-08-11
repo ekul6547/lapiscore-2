@@ -2,5 +2,8 @@
   "language.name": "English",
   "language.region": "United States",
   "language.code": "en_us",
+
+  "tinkery.attributes.combo.numeral": "%s %s",
+  "tinkery.attributes.combo.amount": "%s  %s / %s"
   
 }

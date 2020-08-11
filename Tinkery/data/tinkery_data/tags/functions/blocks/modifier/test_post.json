@@ -1,6 +1,7 @@
 {
     "values": [
         "tinkery_data:attributes/durability/test",
+        "tinkery_data:attributes/netherite_up/test",
         "tinkery_data:attributes/mending/test"
     ]
 }

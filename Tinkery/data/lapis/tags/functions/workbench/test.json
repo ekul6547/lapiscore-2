@@ -1,5 +1,6 @@
 {
 	"values": [
-		"tinkery:blueprints/workbench/test_bench"
+		"tinkery:blueprints/workbench/test_bench",
+		"tinkery:blocks/blueprinter/workbench/test_bench"
 	]
 }

@@ -2,6 +2,33 @@
     "providers": [
         {
             "type": "bitmap",
+            "file": "tinkery:block/blueprinter_top.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud001"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "tinkery:block/constructor_top.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud002"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "tinkery:block/modifier_top.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud003"
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "tinkery:item/blueprint/blank.png",
             "ascent": 16,
             "height": 16,

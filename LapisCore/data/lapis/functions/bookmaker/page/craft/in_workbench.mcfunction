@@ -1,1 +1,1 @@
-data modify storage lapis:core bookmaker.craft.below set value '{"text":"Made in ","color":"black","extra":[{"text":"\\ud498","font":"lapis:icons","color":"white","hoverEvent":{"action":"show_text","value":["",{"text":"Lapis Workbench","color":"white"}]}},{"text":"","color":"black"}]}'
+data modify storage lapis:core bookmaker.craft.in set value '{"text":"\\n\\nMade in ","color":"black","extra":[{"text":"\\ud498","font":"lapis:icons","color":"white","hoverEvent":{"action":"show_text","value":["",{"text":"Lapis Workbench","color":"white"}]}},{"text":"","color":"black"}]}'

@@ -1,0 +1,1 @@
+data modify storage tinkery:core book.blueprints set from storage lapis:core bookmaker.create

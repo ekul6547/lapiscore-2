@@ -1,0 +1,1 @@
+data modify storage lapis:core bookmaker.craft.shapeless set value '{"text":"\\nShapeless","color":"black"}'

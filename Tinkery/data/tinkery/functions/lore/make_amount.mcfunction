@@ -12,9 +12,8 @@
 # Set to interpret the custom values too, if you want colors
 # name will always be interpreted
 
-
-execute if data storage tinkery:core lore.make{interpretValues:1b} run data modify block 20000002 1 20000000 Text1 set value '["",{"nbt": "lore.make.name","storage": "tinkery:core","interpret": true},{"text": " "},{"nbt": "lore.make.amount","storage": "tinkery:core","interpret": true,"color":"white"},{"text": " / ","color":"white"},{"nbt": "lore.make.max","storage": "tinkery:core","interpret": true,"color":"white"}]'
-execute unless data storage tinkery:core lore.make{interpretValues:1b} run data modify block 20000002 1 20000000 Text1 set value '["",{"nbt": "lore.make.name","storage": "tinkery:core","interpret": true},{"text": " "},{"nbt": "lore.make.amount","storage": "tinkery:core"},{"text": " / ","color":"white"},{"nbt": "lore.make.max","storage": "tinkery:core"}]'
+execute if data storage tinkery:core lore.make.color run function tinkery:lore/set_color_amount
+execute unless data storage tinkery:core lore.make.color run data modify block 20000002 1 20000000 Text1 set value '["",{"translate":"tinkery.attributes.combo.amount","with":[{"nbt": "lore.make.name","storage": "tinkery:core","interpret": true,"italic":false},{"nbt": "lore.make.amount","storage": "tinkery:core","interpret": true,"color":"white","italic":false},{"nbt": "lore.make.max","storage": "tinkery:core","interpret": true,"color":"white","italic":false}],"color":"white"}]'
 
 data modify storage tinkery:core lore.make.output set from block 20000002 1 20000000 Text1
 

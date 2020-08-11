@@ -1,0 +1,41 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "block": "minecraft:barrel",
+            "nbt": "{Items:[{Slot:1b,id:\"minecraft:stick\"},{Slot:2b,id:\"minecraft:stick\"},{Slot:10b,id:\"minecraft:stick\"},{Slot:11b,id:\"minecraft:stick\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "block": "minecraft:barrel",
+            "nbt": "{Items:[{Slot:2b,id:\"minecraft:stick\"},{Slot:3b,id:\"minecraft:stick\"},{Slot:11b,id:\"minecraft:stick\"},{Slot:12b,id:\"minecraft:stick\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "block": "minecraft:barrel",
+            "nbt": "{Items:[{Slot:10b,id:\"minecraft:stick\"},{Slot:11b,id:\"minecraft:stick\"},{Slot:19b,id:\"minecraft:stick\"},{Slot:20b,id:\"minecraft:stick\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "block": "minecraft:barrel",
+            "nbt": "{Items:[{Slot:11b,id:\"minecraft:stick\"},{Slot:12b,id:\"minecraft:stick\"},{Slot:20b,id:\"minecraft:stick\"},{Slot:21b,id:\"minecraft:stick\"}]}"
+          }
+        }
+      }
+    ]
+  }

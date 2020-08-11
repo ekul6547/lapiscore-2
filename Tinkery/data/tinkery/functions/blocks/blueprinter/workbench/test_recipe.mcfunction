@@ -1,0 +1,5 @@
+scoreboard players set #tinkery.recipes.blueprinter lapis.const 0
+execute if data storage lapis:core workbench.craft.items[{id:"minecraft:crafting_table"}] if data storage lapis:core workbench.craft.items[{id:"minecraft:paper"}].tag.TinkeryBlueprint unless data storage lapis:core workbench.craft.items[2] run scoreboard players set #tinkery.recipes.blueprinter lapis.const 1
+execute if score #tinkery.recipes.blueprinter lapis.const matches 1 run data modify storage lapis:core workbench.craft.output_item set from storage tinkery:core blueprinter.place_item
+execute if score #tinkery.recipes.blueprinter lapis.const matches 1 run data modify storage lapis:core workbench.craft.output_item.Count set value 1b
+execute if score #tinkery.recipes.blueprinter lapis.const matches 1 run scoreboard players set #lapis.workbench.test lapis.const 1
