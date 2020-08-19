@@ -1,1 +1,1 @@
-data modify storage tinkery:core book.blueprints set from storage lapis:core bookmaker.create
+data modify storage tinkery:core book.attributes set from storage lapis:core bookmaker.create
