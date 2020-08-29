@@ -1,0 +1,2 @@
+execute store result score #tinkery.attribute.mending.level lapis.const run data get storage tinkery:core tick.item.tag.Tinkery.Attributes[{id:"mending"}].level
+execute if score #tinkery.attribute.mending.level lapis.const matches 1.. run function tinkery_data:attributes/mending/do_mend

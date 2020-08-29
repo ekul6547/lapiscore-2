@@ -3,7 +3,7 @@ function lapis:timer/1_minute
 function lapis:timer/5_minutes
 function lapis:timer/5_seconds
 function lapis:timer/10_minutes
-function lapis:timer/10_second
+function lapis:timer/10_seconds
 function lapis:timer/15_minutes
 function lapis:timer/20_minutes
 function lapis:timer/30_minutes
