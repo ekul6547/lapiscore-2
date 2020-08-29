@@ -1,6 +1,5 @@
 {
     "values": [
-        "#tinkery_data:tick/slot/any",
-        "tinkery_data:tick/mainhand"
+        "#tinkery_data:tick/slot/any"
     ]
 }
