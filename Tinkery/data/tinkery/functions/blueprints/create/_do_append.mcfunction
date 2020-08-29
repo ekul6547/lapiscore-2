@@ -4,6 +4,7 @@ data modify storage tinkery:core blueprints.new.Item.tag.TinkeryBlueprint set fr
 data modify storage tinkery:core blueprints.new.Item.tag.display.Name set from storage tinkery:core blueprints.new.name
 
 data modify storage tinkery:core blueprints.tmp._pattern set from storage tinkery:core blueprints.new.pattern
+data modify storage tinkery:core blueprints.new._pattern set from storage tinkery:core blueprints.new.pattern
 data modify storage tinkery:core blueprints.new.pattern set value []
 
 #Top Row

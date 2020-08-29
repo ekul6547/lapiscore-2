@@ -1,0 +1,5 @@
+scoreboard players set #tinkery.recipes.modifier lapis.const 0
+execute if data storage lapis:core workbench.craft.items[{id:"minecraft:smithing_table"}] if data storage lapis:core workbench.craft.items[{id:"minecraft:wooden_axe"}] unless data storage lapis:core workbench.craft.items[2] run scoreboard players set #tinkery.recipes.modifier lapis.const 1
+execute if score #tinkery.recipes.modifier lapis.const matches 1 run data modify storage lapis:core workbench.craft.output_item set from storage tinkery:core modifier.place_item
+execute if score #tinkery.recipes.modifier lapis.const matches 1 run data modify storage lapis:core workbench.craft.output_item.Count set value 1b
+execute if score #tinkery.recipes.modifier lapis.const matches 1 run scoreboard players set #lapis.workbench.test lapis.const 1

@@ -1,0 +1,1 @@
+execute if score #lapis.workbench.test lapis.const matches 0 run function tinkery:blocks/constructor/workbench/test_recipe
