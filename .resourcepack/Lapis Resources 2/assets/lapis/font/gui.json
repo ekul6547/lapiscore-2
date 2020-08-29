@@ -1,0 +1,355 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/blank.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud100"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/up.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud101"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/down.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud102"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/left.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud103"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/right.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud104"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/block.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud105"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/percent.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud106"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/divide.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud107"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/plus.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud108"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/minus.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud109"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/x.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud110"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/barrier.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud111"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/equal.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud112"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/linever.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud113"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/linehor.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud114"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/plusleft.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud115"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/plusright.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud116"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/flame_off.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud117"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/flame_on.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud118"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/refresh.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud119"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/pickaxe.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud120"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/axe.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud121"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/shovel.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud122"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/hoe.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud123"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/sword.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud124"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/bow.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud125"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/crossbow.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud126"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/shield.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud127"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/hammer.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud128"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/boots.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud130"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/leggings.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud131"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/chestplate.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud132"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/helmet.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud133"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/ingot.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud134"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/dust.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud135"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/gem.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud136"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/nugget.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud137"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/horse_armor.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud138"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lapis:gui/stick.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud139"
+            ]
+        }
+    ]
+}

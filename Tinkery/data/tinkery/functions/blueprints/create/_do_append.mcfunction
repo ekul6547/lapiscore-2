@@ -3,7 +3,7 @@ data modify storage tinkery:core blueprints.new.Item.tag.CustomModelData set fro
 data modify storage tinkery:core blueprints.new.Item.tag.TinkeryBlueprint set from storage tinkery:core blueprints.new.id
 data modify storage tinkery:core blueprints.new.Item.tag.display.Name set from storage tinkery:core blueprints.new.name
 
-data modify storage tinkery:core blueprints.new._pattern set from storage tinkery:core blueprints.new.pattern
+data modify storage tinkery:core blueprints.tmp._pattern set from storage tinkery:core blueprints.new.pattern
 data modify storage tinkery:core blueprints.new.pattern set value []
 
 #Top Row
@@ -49,5 +49,5 @@ execute if data storage tinkery:core blueprints.new{doSlot:1} run data modify st
 execute if data storage tinkery:core blueprints.new{doSlot:2} run data modify storage tinkery:core blueprints.new.pattern append value {Slot:23b,cmd:404305}
 
 data remove storage tinkery:core blueprints.new.doSlot
-data remove storage tinkery:core blueprints.new._pattern
 data modify storage tinkery:core blueprints.list append from storage tinkery:core blueprints.new
+data modify storage tinkery:core blueprints.new.pattern set from storage tinkery:core blueprints.tmp._pattern
