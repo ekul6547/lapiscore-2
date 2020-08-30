@@ -4,4 +4,4 @@ execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data s
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:golden_sword"} run function tinkery:item/_/format/defaults/sword/gold
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:diamond_sword"} run function tinkery:item/_/format/defaults/sword/diamond
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:netherite_sword"} run function tinkery:item/_/format/defaults/sword/netherite
-execute unless data storage tinkery:core item.format.tag.Tinkery.Traits[0] run data modify storage tinkery:core item.format.tag.Tinkery.Traits set value ["melee"]
+execute unless score #tinkery.format.tool_type_found lapis.const matches 0 unless data storage tinkery:core item.format.tag.Tinkery.Traits[0] run data modify storage tinkery:core item.format.tag.Tinkery.Traits set value ["melee"]
