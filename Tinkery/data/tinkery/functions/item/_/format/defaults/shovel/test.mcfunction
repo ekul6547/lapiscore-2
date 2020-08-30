@@ -1,0 +1,7 @@
+execute if data storage tinkery:core item.format{id:"minecraft:wooden_shovel"} run function tinkery:item/_/format/defaults/shovel/wood
+execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:stone_shovel"} run function tinkery:item/_/format/defaults/shovel/stone
+execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:iron_shovel"} run function tinkery:item/_/format/defaults/shovel/iron
+execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:golden_shovel"} run function tinkery:item/_/format/defaults/shovel/gold
+execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:diamond_shovel"} run function tinkery:item/_/format/defaults/shovel/diamond
+execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:netherite_shovel"} run function tinkery:item/_/format/defaults/shovel/netherite
+execute unless data storage tinkery:core item.format.tag.Tinkery.Traits[0] run data modify storage tinkery:core item.format.tag.Tinkery.Traits set value ["mine"]
