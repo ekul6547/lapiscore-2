@@ -11,3 +11,4 @@ execute unless data storage tinkery:core modifier.output run function #tinkery_d
 execute unless data storage tinkery:core modifier.output run function #tinkery_data:blocks/modifier/test_post
 
 execute if data storage tinkery:core modifier.output.id run function tinkery:blocks/modifier/craft/do_modify
+execute unless data storage tinkery:core modifier.output.id if data storage tinkery:core modifier.test.tool.tag.Tinkery.repair run function tinkery:blocks/modifier/craft/test_repair
