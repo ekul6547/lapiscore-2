@@ -1,6 +1,6 @@
 scoreboard players set #tinkery.modifier.inc lapis.const 1
 scoreboard players set #tinkery.modifier.rem lapis.const 1
-scoreboard players set #tinkery.modifier.rem2 lapis.const 0
+scoreboard players set #tinkery.modifier.rem2 lapis.const 1
 
 data modify storage tinkery:recipes attributes.current set from storage tinkery:core modifier.test.tool.tag.Tinkery.Attributes[0]
 
