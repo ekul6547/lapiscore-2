@@ -38,3 +38,5 @@ function #tinkery_data:item/format_pre
 function tinkery:item/_/format/defaults/_/set
 
 function #tinkery_data:item/format
+
+data modify storage tinkery:core item.format.tag.Tinkery.startCustomModelData set from storage tinkery:core item.format.tag.CustomModelData
