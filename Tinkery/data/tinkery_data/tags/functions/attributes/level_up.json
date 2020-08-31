@@ -2,6 +2,7 @@
     "values": [
         "tinkery_data:attributes/durability/test_level_up",
         "tinkery_data:attributes/fortune/test_level_up",
+        "tinkery_data:attributes/looting/test_level_up",
         "tinkery_data:attributes/netherite_up/test_level_up"
     ]
 }
