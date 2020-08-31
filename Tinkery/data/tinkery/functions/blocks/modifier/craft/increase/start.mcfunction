@@ -13,4 +13,7 @@ execute store result score #tinkery.modifier.next lapis.const run data get stora
 execute store result score #tinkery.modifier.level lapis.const run data get storage tinkery:recipes attributes.current.level
 execute store result score #tinkery.modifier.max lapis.const run data get storage tinkery:recipes attributes.current.maxLevel
 
+# tellraw @p ["",{"text": "NBT: "},{"nbt": "modifier.output","storage": "tinkery:core"}]
+# tellraw @p ["",{"text": "Increase By: "},{"score": {"name": "#tinkery.modifier.inc","objective": "lapis.const"}}]
+
 execute if score #tinkery.modifier.level lapis.const < #tinkery.modifier.max lapis.const run function tinkery:blocks/modifier/craft/increase/continue

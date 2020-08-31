@@ -75,6 +75,7 @@ Attribute:{
     name: (String),
     block: [(Array)], append these to the attribute block list on init,
     layerIndex: (int), add 2^layerIndex to custom model data
+    loreColor: (int), the colour to apply to the lore (see list below)
     current: (int), the current progress towards next level,
     level: (int), the current level
     maxLevel: (int), the highest level possible. Default 10
@@ -163,6 +164,24 @@ tool nbt found here (modifications will be saved to item):
 storage tinkery:core modifier.test.tool
 
 tinkery_data/tags/functions/attributes/custom_next <- called when calculating custom next operation (see above)
+
+loreColor -  sets the numeral/amount of the lore to this colour:
+0 - black
+1 - dark_blue
+2 - dark_green
+3 - dark_aqua
+4 - dark_red
+5 - dark_purple
+6 - gold
+7 - gray
+8 - dark_gray
+9 - blue
+10 - green
+11 - aqua
+12 - red
+13 - light_purple
+14 - yellow
+15 - white
 
 
 Tick:
