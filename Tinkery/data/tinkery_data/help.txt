@@ -110,6 +110,15 @@ Attribute:{
             storage tinkery:recipes attributes.current
 }
 
+I use desmos to easily visualise the rates: https://www.desmos.com/calculator
+Heres copy-paste for the equations:
+0 - y=\left(l+m\right)\cdot b+o
+1 - y=b\cdot l^{2}+m\cdot l+o
+2 - y=b\cdot m^{x}+o
+Or use this link (may or may not work):
+https://www.desmos.com/calculator/o1zuhiuey9
+
+
 Testing:
 tinkery_data/tags/functions/blocks/modifier/test_pre <- first attempt of testing. Use to override other datapacks
 tinkery_data/tags/functions/blocks/modifier/test <- main test stage here. Use this one for your own attributes

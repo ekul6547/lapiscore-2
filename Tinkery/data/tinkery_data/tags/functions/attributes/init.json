@@ -2,6 +2,7 @@
     "values": [
         "tinkery_data:attributes/durability/init",
         "tinkery_data:attributes/mending/init",
+        "tinkery_data:attributes/efficiency/init",
         "tinkery_data:attributes/fortune/init",
         "tinkery_data:attributes/looting/init",
         "tinkery_data:attributes/netherite_up/init"
