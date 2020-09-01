@@ -1,0 +1,1 @@
+execute if data storage tinkery:recipes attributes.current{id:"blast_protection"} run function tinkery_data:attributes/blast_protection/do_level_up

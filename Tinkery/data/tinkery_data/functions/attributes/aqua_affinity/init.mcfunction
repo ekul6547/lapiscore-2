@@ -14,5 +14,5 @@ data modify storage tinkery:core bookmaker.attribute.title set value '{"text":"A
 data modify storage tinkery:core bookmaker.attribute.info set value '{"text":"Mine faster under water."}'
 data modify storage tinkery:core bookmaker.attribute.items[0] set value '["",{"text":"\\ud41d","color":"white","font":"lapis:icons","hoverEvent":{"action":"show_text","value":["",{"translate": "item.minecraft.turtle_helmet","color":"white"}]}}]'
 data modify storage tinkery:core bookmaker.attribute.amount set value 1
-data modify storage tinkery:core bookmaker.attribute.maxLevel set value 5
-function tinkery:book/attributes/page/make
+data modify storage tinkery:core bookmaker.attribute.maxLevel set value 1
+function tinkery:book/attributes/page/make_one_time
