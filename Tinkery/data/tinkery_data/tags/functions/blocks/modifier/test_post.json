@@ -4,6 +4,7 @@
         "tinkery_data:attributes/damage/test",
         "tinkery_data:attributes/armor/test",
         "tinkery_data:attributes/efficiency/test",
+        "tinkery_data:attributes/attack_speed/test",
         "tinkery_data:attributes/fortune/test",
         "tinkery_data:attributes/looting/test",
         "tinkery_data:attributes/mending/test",

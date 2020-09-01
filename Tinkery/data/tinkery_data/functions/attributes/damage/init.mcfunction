@@ -13,7 +13,8 @@ function tinkery:attributes/create/append
 function tinkery:book/attributes/page/reset
 data modify storage tinkery:core bookmaker.attribute.title set value '{"text":"Sharpened","color":"gray"}'
 data modify storage tinkery:core bookmaker.attribute.info set value '{"text":"Increase damage."}'
-data modify storage tinkery:core bookmaker.attribute.items[0] set value '{"text":"\\ud3ec","color":"white","font":"lapis:icons","hoverEvent":{"action":"show_text","value":["",{"translate": "block.minecraft.quartz","color":"white"}]}}'
+data modify storage tinkery:core bookmaker.attribute.items[0] set value '["",{"text":"\\ud3ec","color":"white","font":"lapis:icons","hoverEvent":{"action":"show_text","value":["",{"translate": "item.minecraft.quartz","color":"white"}]}},{"text":" or "}]'
+data modify storage tinkery:core bookmaker.attribute.items[1] set value '{"text":"\\ud21c","color":"white","font":"lapis:icons","hoverEvent":{"action":"show_text","value":["",{"translate": "block.minecraft.quartz_block","color":"white"}]}}'
 data modify storage tinkery:core bookmaker.attribute.amount set value 32
 data modify storage tinkery:core bookmaker.attribute.maxLevel set value 10
 function tinkery:book/attributes/page/make

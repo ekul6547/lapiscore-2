@@ -4,6 +4,7 @@
         "tinkery_data:attributes/damage/test_level_up",
         "tinkery_data:attributes/armor/test_level_up",
         "tinkery_data:attributes/efficiency/test_level_up",
+        "tinkery_data:attributes/attack_speed/test_level_up",
         "tinkery_data:attributes/fortune/test_level_up",
         "tinkery_data:attributes/looting/test_level_up",
         "tinkery_data:attributes/netherite_up/test_level_up"
