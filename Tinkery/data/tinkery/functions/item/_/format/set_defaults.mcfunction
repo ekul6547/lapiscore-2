@@ -10,6 +10,8 @@ scoreboard players set #tinkery.format.base_max_health lapis.const 0
 scoreboard players set #tinkery.format.base_luck lapis.const 0
 
 scoreboard players set #tinkery.format.color_index lapis.const 0
+# 0 mainhand, -1 offhand, 1 head, 2 chest, 3 legs, 4 feet
+scoreboard players set #tinkery.format.armor_slot lapis.const 0
 
 function tinkery:item/_/format/defaults/pickaxe/test
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 run function tinkery:item/_/format/defaults/axe/test

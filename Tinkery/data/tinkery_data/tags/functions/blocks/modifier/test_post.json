@@ -1,6 +1,7 @@
 {
     "values": [
         "tinkery_data:attributes/durability/test",
+        "tinkery_data:attributes/armor/test",
         "tinkery_data:attributes/efficiency/test",
         "tinkery_data:attributes/fortune/test",
         "tinkery_data:attributes/looting/test",

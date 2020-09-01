@@ -5,3 +5,4 @@ execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data s
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:diamond_helmet"} run function tinkery:item/_/format/defaults/helmet/diamond
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:netherite_helmet"} run function tinkery:item/_/format/defaults/helmet/netherite
 execute unless score #tinkery.format.tool_type_found lapis.const matches 0 unless data storage tinkery:core item.format.tag.Tinkery.Traits[0] run data modify storage tinkery:core item.format.tag.Tinkery.Traits set value ["armor","basic"]
+execute unless score #tinkery.format.tool_type_found lapis.const matches 0 run scoreboard players set #tinkery.format.armor_slot lapis.const 1
