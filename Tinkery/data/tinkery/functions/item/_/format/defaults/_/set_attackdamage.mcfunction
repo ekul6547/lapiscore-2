@@ -1,3 +1,4 @@
 scoreboard players remove #tinkery.format.base_attackdamage lapis.const 100
 data modify storage tinkery:core item.format.tag.AttributeModifiers append value {AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Slot:"mainhand",Amount:3,Operation:0,UUID:[I;-292883215,864961375,-1678190665,1928136365]}
 execute store result storage tinkery:core item.format.tag.AttributeModifiers[{Name:"generic.attack_damage"}].Amount float 0.01 run scoreboard players get #tinkery.format.base_attackdamage lapis.const
+execute store result storage tinkery:core item.format.tag.AttributeModifiers[{Name:"generic.attack_damage"}].start float 0.01 run scoreboard players get #tinkery.format.base_attackdamage lapis.const

@@ -1,2 +1,3 @@
 data modify storage tinkery:core item.format.tag.AttributeModifiers append value {AttributeName:"generic.luck",Name:"generic.luck",Slot:"mainhand",Amount:3,Operation:0,UUID:[I;-292883210,864961370,-1678190660,1928136360]}
 execute store result storage tinkery:core item.format.tag.AttributeModifiers[{Name:"generic.luck"}].Amount float 0.01 run scoreboard players get #tinkery.format.base_luck lapis.const
+execute store result storage tinkery:core item.format.tag.AttributeModifiers[{Name:"generic.luck"}].start float 0.01 run scoreboard players get #tinkery.format.base_luck lapis.const
