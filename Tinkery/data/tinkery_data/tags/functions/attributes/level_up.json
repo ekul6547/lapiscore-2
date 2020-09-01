@@ -8,6 +8,7 @@
         "tinkery_data:attributes/fortune/test_level_up",
         "tinkery_data:attributes/looting/test_level_up",
         "tinkery_data:attributes/armor_toughness/test_level_up",
+        "tinkery_data:attributes/aqua_affinity/test_level_up",
         "tinkery_data:attributes/netherite_up/test_level_up"
     ]
 }

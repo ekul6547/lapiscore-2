@@ -1,0 +1,1 @@
+execute if data storage tinkery:recipes attributes.current{id:"aqua_affinity"} run function tinkery_data:attributes/aqua_affinity/do_level_up

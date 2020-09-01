@@ -6,7 +6,7 @@ data modify storage tinkery:recipes attributes.new.base set value 1
 data modify storage tinkery:recipes attributes.new.modi set value 7
 data modify storage tinkery:recipes attributes.new.offset set value 4
 data modify storage tinkery:recipes attributes.new.maxLevel set value 10
-data modify storage tinkery:recipes attributes.new.loreColor set value 7
+data modify storage tinkery:recipes attributes.new.loreColor set value 10
 function tinkery:attributes/create/append
 
 function tinkery:book/attributes/page/reset

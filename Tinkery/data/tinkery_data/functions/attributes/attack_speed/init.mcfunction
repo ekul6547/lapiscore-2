@@ -7,7 +7,7 @@ data modify storage tinkery:recipes attributes.new.modi set value 2
 data modify storage tinkery:recipes attributes.new.offset set value 0
 data modify storage tinkery:recipes attributes.new.maxLevel set value 5
 data modify storage tinkery:recipes attributes.new.loreColor set value 15
-data modify storage tinkery:recipes attributes.new.layerIndex set value 2
+data modify storage tinkery:recipes attributes.new.layerIndex set value 4
 function tinkery:attributes/create/append
 
 function tinkery:book/attributes/page/reset
