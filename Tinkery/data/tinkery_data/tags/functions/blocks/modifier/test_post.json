@@ -8,6 +8,7 @@
         "tinkery_data:attributes/fortune/test",
         "tinkery_data:attributes/looting/test",
         "tinkery_data:attributes/mending/test",
+        "tinkery_data:attributes/armor_toughness/test",
         "tinkery_data:attributes/netherite_up/test"
     ]
 }

@@ -8,6 +8,7 @@
         "tinkery_data:attributes/attack_speed/init",
         "tinkery_data:attributes/fortune/init",
         "tinkery_data:attributes/looting/init",
+        "tinkery_data:attributes/armor_toughness/init",
         "tinkery_data:attributes/netherite_up/init"
     ]
 }
