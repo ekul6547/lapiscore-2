@@ -4,6 +4,8 @@
         "tinkery_data:constructor/pickaxe/gold/test",
         "tinkery_data:constructor/sword/iron/test",
         "tinkery_data:constructor/sword/gold/test",
+        "tinkery_data:constructor/boots/iron/test",
+        "tinkery_data:constructor/boots/gold/test",
         "tinkery_data:constructor/helmet/iron/test",
         "tinkery_data:constructor/helmet/gold/test"
     ]
