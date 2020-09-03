@@ -7,6 +7,7 @@
         "tinkery_data:attributes/attack_speed/test_level_up",
         "tinkery_data:attributes/fortune/test_level_up",
         "tinkery_data:attributes/looting/test_level_up",
+        "tinkery_data:attributes/fire_aspect/test_level_up",
         "tinkery_data:attributes/armor_toughness/test_level_up",
         "tinkery_data:attributes/feather_falling/test_level_up",
         "tinkery_data:attributes/depth_strider/test_level_up",
