@@ -6,6 +6,8 @@
         "tinkery_data:constructor/sword/gold/init",
         "tinkery_data:constructor/boots/iron/init",
         "tinkery_data:constructor/boots/gold/init",
+        "tinkery_data:constructor/leggings/iron/init",
+        "tinkery_data:constructor/leggings/gold/init",
         "tinkery_data:constructor/helmet/iron/init",
         "tinkery_data:constructor/helmet/gold/init"
     ]

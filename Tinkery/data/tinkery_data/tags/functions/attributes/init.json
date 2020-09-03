@@ -17,6 +17,7 @@
         "tinkery_data:attributes/aqua_affinity/init",
         "tinkery_data:attributes/feeding/init",
         "tinkery_data:attributes/frost_walker/init",
+        "tinkery_data:attributes/jump_boost/init",
         "tinkery_data:attributes/netherite_up/init"
     ]
 }
