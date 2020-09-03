@@ -14,6 +14,7 @@
         "tinkery_data:attributes/blast_protection/test_level_up",
         "tinkery_data:attributes/fire_protection/test_level_up",
         "tinkery_data:attributes/aqua_affinity/test_level_up",
+        "tinkery_data:attributes/frost_walker/test_level_up",
         "tinkery_data:attributes/netherite_up/test_level_up"
     ]
 }
