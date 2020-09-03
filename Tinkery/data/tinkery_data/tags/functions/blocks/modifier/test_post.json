@@ -13,6 +13,7 @@
         "tinkery_data:attributes/feather_falling/test",
         "tinkery_data:attributes/depth_strider/test",
         "tinkery_data:attributes/blast_protection/test",
+        "tinkery_data:attributes/fire_protection/test",
         "tinkery_data:attributes/aqua_affinity/test",
         "tinkery_data:attributes/feeding/test",
         "tinkery_data:attributes/netherite_up/test"
