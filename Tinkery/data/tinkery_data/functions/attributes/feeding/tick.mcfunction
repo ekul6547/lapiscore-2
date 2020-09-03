@@ -1,0 +1,1 @@
+execute if data storage tinkery:core tick.item.tag.Tinkery.Attributes[{id:"force_feeding"}] run function tinkery_data:attributes/feeding/do_level_check
