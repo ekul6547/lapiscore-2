@@ -1,11 +1,11 @@
 #increase armor_toughness by 5%
 
 execute store result score #tinkery.attribute.level lapis.const run data get storage tinkery:recipes attributes.current.level
-execute store result score #tinkery.attributeamount lapis.const run data get storage tinkery:core modifier.test.tool.tag.AttributeModifiers[{Name:"generic.armor_toughness"}].start 100
-scoreboard players set #tinkery.attributeincrease lapis.const 10
+execute store result score #tinkery.attribute.amount lapis.const run data get storage tinkery:core modifier.test.tool.tag.AttributeModifiers[{Name:"generic.armor_toughness"}].start 100
+scoreboard players set #tinkery.attribute.increase lapis.const 10
 
-scoreboard players operation #tinkery.attributeincrease lapis.const *= #tinkery.attribute.level lapis.const
-scoreboard players operation #tinkery.attributeamount lapis.const += #tinkery.attributeincrease lapis.const
+scoreboard players operation #tinkery.attribute.increase lapis.const *= #tinkery.attribute.level lapis.const
+scoreboard players operation #tinkery.attribute.amount lapis.const += #tinkery.attribute.increase lapis.const
 
 #save
-execute store result storage tinkery:core modifier.test.tool.tag.AttributeModifiers[{Name:"generic.armor_toughness"}].Amount float 0.01 run scoreboard players get #tinkery.attributeamount lapis.const
+execute store result storage tinkery:core modifier.test.tool.tag.AttributeModifiers[{Name:"generic.armor_toughness"}].Amount float 0.01 run scoreboard players get #tinkery.attribute.amount lapis.const
