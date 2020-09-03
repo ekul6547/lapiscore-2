@@ -1,0 +1,8 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "nbt": "{Items:[{Slot:12b,id:\"minecraft:iron_ingot\"},{Slot:14b,id:\"minecraft:iron_ingot\"},{Slot:21b,id:\"minecraft:iron_ingot\"},{Slot:23b,id:\"minecraft:iron_ingot\"}]}"
+      }
+    }
+  }

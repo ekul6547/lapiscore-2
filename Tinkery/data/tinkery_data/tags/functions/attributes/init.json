@@ -9,6 +9,7 @@
         "tinkery_data:attributes/fortune/init",
         "tinkery_data:attributes/looting/init",
         "tinkery_data:attributes/armor_toughness/init",
+        "tinkery_data:attributes/depth_strider/init",
         "tinkery_data:attributes/blast_protection/init",
         "tinkery_data:attributes/aqua_affinity/init",
         "tinkery_data:attributes/netherite_up/init"

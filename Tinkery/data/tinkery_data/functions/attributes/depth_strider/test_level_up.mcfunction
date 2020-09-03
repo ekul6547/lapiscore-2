@@ -1,0 +1,1 @@
+execute if data storage tinkery:recipes attributes.current{id:"depth_strider"} run function tinkery_data:attributes/depth_strider/do_level_up
