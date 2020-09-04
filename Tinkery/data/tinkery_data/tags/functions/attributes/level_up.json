@@ -10,6 +10,7 @@
         "tinkery_data:attributes/knockback/test_level_up",
         "tinkery_data:attributes/fire_aspect/test_level_up",
         "tinkery_data:attributes/armor_toughness/test_level_up",
+        "tinkery_data:attributes/knockback_resistance/test_level_up",
         "tinkery_data:attributes/feather_falling/test_level_up",
         "tinkery_data:attributes/depth_strider/test_level_up",
         "tinkery_data:attributes/soul_speed/test_level_up",

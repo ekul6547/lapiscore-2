@@ -3,10 +3,11 @@ execute unless score #tinkery.format.base_attackspeed lapis.const matches 0 run 
 
 execute unless score #tinkery.format.base_armor lapis.const matches 0 run function tinkery:item/_/format/defaults/_/set_armor
 execute unless score #tinkery.format.base_armor lapis.const matches 0 run function tinkery:item/_/format/defaults/_/set_toughness
+execute unless score #tinkery.format.base_knockback_res lapis.const matches 0 run function tinkery:item/_/format/defaults/_/set_knockback_resistance
 execute if score #tinkery.format.base_armor lapis.const matches 0 if score #tinkery.format.armor_slot lapis.const matches 1.. run function tinkery:item/_/format/defaults/_/set_armor
 execute if score #tinkery.format.base_armor lapis.const matches 0 if score #tinkery.format.armor_slot lapis.const matches 1.. run function tinkery:item/_/format/defaults/_/set_toughness
+execute if score #tinkery.format.base_knockback_res lapis.const matches 0 if score #tinkery.format.armor_slot lapis.const matches 1.. run function tinkery:item/_/format/defaults/_/set_knockback_resistance
 
-execute unless score #tinkery.format.base_knockback_res lapis.const matches 0 run function tinkery:item/_/format/defaults/_/set_knockback_resistance
 execute unless score #tinkery.format.base_max_health lapis.const matches 0 run function tinkery:item/_/format/defaults/_/set_max_health
 execute unless score #tinkery.format.base_luck lapis.const matches 0 run function tinkery:item/_/format/defaults/_/set_luck
 execute if data storage tinkery:core item.format.tag.TinkeryInit.Repair run data modify storage tinkery:core item.format.tag.Tinkery.repair set from storage tinkery:core item.format.tag.TinkeryInit.Repair

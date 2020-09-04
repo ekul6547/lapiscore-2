@@ -11,6 +11,7 @@
         "tinkery_data:attributes/knockback/init",
         "tinkery_data:attributes/fire_aspect/init",
         "tinkery_data:attributes/armor_toughness/init",
+        "tinkery_data:attributes/knockback_resistance/init",
         "tinkery_data:attributes/feather_falling/init",
         "tinkery_data:attributes/depth_strider/init",
         "tinkery_data:attributes/soul_speed/init",

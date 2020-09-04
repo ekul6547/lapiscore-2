@@ -11,6 +11,7 @@
         "tinkery_data:attributes/mending/test",
         "tinkery_data:attributes/fire_aspect/test",
         "tinkery_data:attributes/armor_toughness/test",
+        "tinkery_data:attributes/knockback_resistance/test",
         "tinkery_data:attributes/feather_falling/test",
         "tinkery_data:attributes/depth_strider/test",
         "tinkery_data:attributes/soul_speed/test",
