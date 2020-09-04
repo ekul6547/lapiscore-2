@@ -21,6 +21,7 @@
         "tinkery_data:attributes/feeding/test",
         "tinkery_data:attributes/frost_walker/test",
         "tinkery_data:attributes/jump_boost/test",
+        "tinkery_data:attributes/sweeping_edge/test",
         "tinkery_data:attributes/movement_speed/test",
         "tinkery_data:attributes/night_vision/test",
         "tinkery_data:attributes/silk_touch/test",
