@@ -17,6 +17,7 @@
         "tinkery_data:attributes/blast_protection/init",
         "tinkery_data:attributes/fire_protection/init",
         "tinkery_data:attributes/aqua_affinity/init",
+        "tinkery_data:attributes/respiration/init",
         "tinkery_data:attributes/feeding/init",
         "tinkery_data:attributes/frost_walker/init",
         "tinkery_data:attributes/jump_boost/init",

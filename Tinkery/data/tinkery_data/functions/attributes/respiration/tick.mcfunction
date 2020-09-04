@@ -1,0 +1,1 @@
+execute if data storage tinkery:core tick.item.tag.Tinkery.Attributes[{id:"respiration"}] run function tinkery_data:attributes/respiration/do_level_check
