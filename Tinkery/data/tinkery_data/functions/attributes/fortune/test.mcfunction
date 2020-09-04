@@ -19,3 +19,4 @@ execute if score #tinkery.attribute.test lapis.const matches 1 if data storage t
 
 execute if score #tinkery.attribute.test lapis.const matches 1 run data modify storage tinkery:core modifier.output set value {id:"fortune"}
 execute if score #tinkery.attribute.test lapis.const matches 1 store result storage tinkery:core modifier.output.increase int 1 run scoreboard players get #tinkery.attribute.increase lapis.const
+execute if score #tinkery.attribute.test lapis.const matches 1 unless data storage tinkery:core modifier.test.tool.tag.Tinkery.BlockList[{id:"silk_touch"}] run data modify storage tinkery:core modifier.test.tool.tag.Tinkery.BlockList append value {id:"silk_touch"}
