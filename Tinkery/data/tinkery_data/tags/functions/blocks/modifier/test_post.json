@@ -13,6 +13,7 @@
         "tinkery_data:attributes/armor_toughness/test",
         "tinkery_data:attributes/feather_falling/test",
         "tinkery_data:attributes/depth_strider/test",
+        "tinkery_data:attributes/soul_speed/test",
         "tinkery_data:attributes/projectile_protection/test",
         "tinkery_data:attributes/blast_protection/test",
         "tinkery_data:attributes/fire_protection/test",
