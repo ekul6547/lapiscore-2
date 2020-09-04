@@ -1,8 +1,8 @@
-execute if data storage tinkery:core item.format{id:"minecraft:leather_leggings"} run function tinkery:item/_/format/defaults/leggings/leahter
+execute if data storage tinkery:core item.format{id:"minecraft:leather_leggings"} run function tinkery:item/_/format/defaults/leggings/leather
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:chainmail_leggings"} run function tinkery:item/_/format/defaults/leggings/chainmail
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:iron_leggings"} run function tinkery:item/_/format/defaults/leggings/iron
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:golden_leggings"} run function tinkery:item/_/format/defaults/leggings/gold
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:diamond_leggings"} run function tinkery:item/_/format/defaults/leggings/diamond
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:netherite_leggings"} run function tinkery:item/_/format/defaults/leggings/netherite
 execute unless score #tinkery.format.tool_type_found lapis.const matches 0 unless data storage tinkery:core item.format.tag.Tinkery.Traits[0] run data modify storage tinkery:core item.format.tag.Tinkery.Traits set value ["armor","basic"]
-execute unless score #tinkery.format.tool_type_found lapis.const matches 0 run scoreboard players set #tinkery.format.armor_slot lapis.const 1
+execute unless score #tinkery.format.tool_type_found lapis.const matches 0 run scoreboard players set #tinkery.format.armor_slot lapis.const 3

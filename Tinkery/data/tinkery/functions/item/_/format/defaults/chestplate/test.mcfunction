@@ -1,8 +1,9 @@
-execute if data storage tinkery:core item.format{id:"minecraft:leather_chestplate"} run function tinkery:item/_/format/defaults/chestplate/leahter
+execute if data storage tinkery:core item.format{id:"minecraft:leather_chestplate"} run function tinkery:item/_/format/defaults/chestplate/leather
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:chainmail_chestplate"} run function tinkery:item/_/format/defaults/chestplate/chainmail
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:iron_chestplate"} run function tinkery:item/_/format/defaults/chestplate/iron
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:golden_chestplate"} run function tinkery:item/_/format/defaults/chestplate/gold
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:diamond_chestplate"} run function tinkery:item/_/format/defaults/chestplate/diamond
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:netherite_chestplate"} run function tinkery:item/_/format/defaults/chestplate/netherite
+execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:elytra"} run function tinkery:item/_/format/defaults/chestplate/elytra
 execute unless score #tinkery.format.tool_type_found lapis.const matches 0 unless data storage tinkery:core item.format.tag.Tinkery.Traits[0] run data modify storage tinkery:core item.format.tag.Tinkery.Traits set value ["armor","basic"]
-execute unless score #tinkery.format.tool_type_found lapis.const matches 0 run scoreboard players set #tinkery.format.armor_slot lapis.const 1
+execute unless score #tinkery.format.tool_type_found lapis.const matches 0 run scoreboard players set #tinkery.format.armor_slot lapis.const 2

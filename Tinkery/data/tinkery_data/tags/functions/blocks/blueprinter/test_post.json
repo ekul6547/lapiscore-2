@@ -8,6 +8,7 @@
         "tinkery_data:blueprints/helmet/test",
         "tinkery_data:blueprints/chestplate/test",
         "tinkery_data:blueprints/leggings/test",
-        "tinkery_data:blueprints/boots/test"
+        "tinkery_data:blueprints/boots/test",
+        "tinkery_data:blueprints/elytra/test"
     ]
 }

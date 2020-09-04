@@ -1,4 +1,4 @@
-execute if data storage tinkery:core item.format{id:"minecraft:leather_helmet"} run function tinkery:item/_/format/defaults/helmet/leahter
+execute if data storage tinkery:core item.format{id:"minecraft:leather_helmet"} run function tinkery:item/_/format/defaults/helmet/leather
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:chainmail_helmet"} run function tinkery:item/_/format/defaults/helmet/chainmail
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:iron_helmet"} run function tinkery:item/_/format/defaults/helmet/iron
 execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:golden_helmet"} run function tinkery:item/_/format/defaults/helmet/gold

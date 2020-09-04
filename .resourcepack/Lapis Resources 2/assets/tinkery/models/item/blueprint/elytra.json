@@ -1,0 +1,6 @@
+{
+    "parent": "tinkery:item/blueprint/blank",
+    "textures": {
+        "layer1": "lapis:gui/elytra"
+    }
+}
