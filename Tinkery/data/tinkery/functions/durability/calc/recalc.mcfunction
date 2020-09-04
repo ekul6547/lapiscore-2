@@ -36,9 +36,10 @@ scoreboard players operation #tinkery.durability.remains lapis.const -= #tinkery
 
 execute if score #tinkery.durability.remains lapis.const matches ..1 run scoreboard players add #tinkery.durability.damage lapis.const 2
 
+scoreboard players operation #tinkery.durability.damage lapis.const > #lapis.const.0 lapis.const
+scoreboard players operation #tinkery.durability.current lapis.const > #lapis.const.0 lapis.const
 
 # tellraw @p ["",{"text": "Damage: "},{"score": {"name": "#tinkery.durability.damage","objective": "lapis.const"}}]
-
 execute store result storage tinkery:core durability.item.tag.Damage int 1 run scoreboard players get #tinkery.durability.damage lapis.const
 data modify storage tinkery:core durability.item.tag.Tinkery.Durability.previous set from storage tinkery:core durability.item.tag.Damage
 execute store result storage tinkery:core durability.item.tag.ctc.tool.damage int 1 run scoreboard players get #tinkery.durability.current lapis.const

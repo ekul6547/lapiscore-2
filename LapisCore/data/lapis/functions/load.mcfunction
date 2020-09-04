@@ -34,6 +34,7 @@ scoreboard players set #lapis.random.pre lapis.const 0
 
 #Some constant numbers
 scoreboard players set #lapis.const.min1 lapis.const -1
+scoreboard players set #lapis.const.0 lapis.const 0
 scoreboard players set #lapis.const.1 lapis.const 1
 scoreboard players set #lapis.const.2 lapis.const 2
 scoreboard players set #lapis.const.3 lapis.const 3
