@@ -16,6 +16,7 @@
         "tinkery_data:attributes/projectile_protection/test",
         "tinkery_data:attributes/blast_protection/test",
         "tinkery_data:attributes/fire_protection/test",
+        "tinkery_data:attributes/thorns/test",
         "tinkery_data:attributes/respiration/test",
         "tinkery_data:attributes/aqua_affinity/test",
         "tinkery_data:attributes/feeding/test",

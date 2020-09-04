@@ -16,6 +16,7 @@
         "tinkery_data:attributes/projectile_protection/init",
         "tinkery_data:attributes/blast_protection/init",
         "tinkery_data:attributes/fire_protection/init",
+        "tinkery_data:attributes/thorns/init",
         "tinkery_data:attributes/aqua_affinity/init",
         "tinkery_data:attributes/respiration/init",
         "tinkery_data:attributes/feeding/init",
