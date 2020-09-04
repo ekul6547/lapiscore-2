@@ -26,6 +26,7 @@
         "tinkery_data:attributes/movement_speed/init",
         "tinkery_data:attributes/night_vision/init",
         "tinkery_data:attributes/silk_touch/init",
-        "tinkery_data:attributes/netherite_up/init"
+        "tinkery_data:attributes/netherite_up/init",
+        "tinkery_data:attributes/unbreakable/init"
     ]
 }
