@@ -13,6 +13,7 @@
         "tinkery_data:attributes/armor_toughness/init",
         "tinkery_data:attributes/feather_falling/init",
         "tinkery_data:attributes/depth_strider/init",
+        "tinkery_data:attributes/projectile_protection/init",
         "tinkery_data:attributes/blast_protection/init",
         "tinkery_data:attributes/fire_protection/init",
         "tinkery_data:attributes/aqua_affinity/init",
