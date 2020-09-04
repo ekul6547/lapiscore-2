@@ -1,0 +1,1 @@
+execute if data storage tinkery:recipes attributes.current{id:"silk_touch"} run function tinkery_data:attributes/silk_touch/do_level_up
