@@ -1,0 +1,1 @@
+execute if data storage tinkery:core tick.item.tag.Tinkery.Attributes[{id:"night_vision"}] run function tinkery_data:attributes/night_vision/do_level_check
