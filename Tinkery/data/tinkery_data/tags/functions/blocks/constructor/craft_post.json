@@ -8,6 +8,8 @@
         "tinkery_data:constructor/boots/gold/test",
         "tinkery_data:constructor/leggings/iron/test",
         "tinkery_data:constructor/leggings/gold/test",
+        "tinkery_data:constructor/chestplate/iron/test",
+        "tinkery_data:constructor/chestplate/gold/test",
         "tinkery_data:constructor/helmet/iron/test",
         "tinkery_data:constructor/helmet/gold/test"
     ]

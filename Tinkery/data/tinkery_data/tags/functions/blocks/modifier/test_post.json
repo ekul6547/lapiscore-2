@@ -28,6 +28,7 @@
         "tinkery_data:attributes/night_vision/test",
         "tinkery_data:attributes/silk_touch/test",
         "tinkery_data:attributes/netherite_up/test",
+        "tinkery_data:attributes/dolphins_grace/test",
         "tinkery_data:attributes/unbreakable/test"
     ]
 }

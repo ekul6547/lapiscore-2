@@ -1,0 +1,2 @@
+execute store result score #tinkery.attribute.dolphins_grace.level lapis.const run data get storage tinkery:core tick.item.tag.Tinkery.Attributes[{id:"dolphins_grace"}].level
+execute if score #tinkery.attribute.dolphins_grace.level lapis.const matches 1.. run effect give @s dolphins_grace 11 0 true
