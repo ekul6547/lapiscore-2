@@ -10,6 +10,7 @@
         "tinkery_data:blueprints/leggings/test",
         "tinkery_data:blueprints/boots/test",
         "tinkery_data:blueprints/elytra/test",
-        "tinkery_data:blueprints/bow/test"
+        "tinkery_data:blueprints/bow/test",
+        "tinkery_data:blueprints/trident/test"
     ]
 }

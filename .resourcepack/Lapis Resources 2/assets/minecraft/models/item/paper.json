@@ -16,6 +16,7 @@
         { "predicate": {"custom_model_data": 4041009}, "model": "tinkery:item/blueprint/boots"},
         { "predicate": {"custom_model_data": 4041010}, "model": "tinkery:item/blueprint/elytra"},
         { "predicate": {"custom_model_data": 4041011}, "model": "tinkery:item/blueprint/bow"},
+        { "predicate": {"custom_model_data": 4041012}, "model": "tinkery:item/blueprint/trident"},
         { "predicate": {"custom_model_data": 4041100}, "model": "tinkery:item/cast/blank"},
         { "predicate": {"custom_model_data": 4041101}, "model": "tinkery:item/cast/ingot"},
         { "predicate": {"custom_model_data": 4041102}, "model": "tinkery:item/cast/nugget"},

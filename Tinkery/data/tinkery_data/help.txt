@@ -56,9 +56,10 @@ TinkeryInit:{,
     PreventLayersFor: (array) Prevent specific attribute layers being added
 }
 
-Common Traits:
+Example Common Traits:
 - melee
 - mine
+- basic
 - unbreakable
 - dont-damage
 - armor

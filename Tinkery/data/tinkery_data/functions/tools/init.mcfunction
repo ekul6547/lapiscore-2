@@ -52,3 +52,8 @@ function tinkery:tools/create/reset
 data modify storage tinkery:core tool.new.id set value "bow"
 data modify storage tinkery:core tool.new.ToolIndex set value 0
 function tinkery:tools/create/append
+
+function tinkery:tools/create/reset
+data modify storage tinkery:core tool.new.id set value "trident"
+data modify storage tinkery:core tool.new.ToolIndex set value 0
+function tinkery:tools/create/append

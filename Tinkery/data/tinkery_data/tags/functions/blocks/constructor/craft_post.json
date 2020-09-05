@@ -9,6 +9,7 @@
         "tinkery_data:constructor/leggings/test",
         "tinkery_data:constructor/chestplate/test",
         "tinkery_data:constructor/helmet/test",
-        "tinkery_data:constructor/bow/test"
+        "tinkery_data:constructor/bow/test",
+        "tinkery_data:constructor/trident/test"
     ]
 }
