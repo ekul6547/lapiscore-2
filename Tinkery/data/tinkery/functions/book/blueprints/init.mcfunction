@@ -12,3 +12,5 @@ data modify storage lapis:core bookmaker.create.Item.tag.pages append value '[""
 function tinkery:book/workbench/blueprints_easy
 function tinkery:book/workbench/blueprints
 function tinkery:book/workbench/blueprinter
+
+data modify storage lapis:core bookmaker.create.Item.tag.pages append value '["",{"text":"The rest of the book will list out all possible blueprints.\\n\\nThe"},{"text":"\\ud105","font":"lapis:gui","color":"white","hoverEvent":{"action":"show_text","value":["",{"text":"Material","color":"white"}]}},{"text":" represents where to place common materials, such as leather, planks, iron ingots, diamonds etc..."},{"text":"\\n\\nThe"},{"text":"\\ud139","font":"lapis:gui","color":"white","hoverEvent":{"action":"show_text","value":["",{"text":"Stick","color":"white"}]}},{"text":"represents where to place stick items, such as sticks."}]'
