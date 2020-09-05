@@ -3,6 +3,7 @@
         "tinkery_data:constructor/pickaxe/test",
         "tinkery_data:constructor/axe/test",
         "tinkery_data:constructor/shovel/test",
+        "tinkery_data:constructor/hoe/test",
         "tinkery_data:constructor/sword/test"
     ]
 }

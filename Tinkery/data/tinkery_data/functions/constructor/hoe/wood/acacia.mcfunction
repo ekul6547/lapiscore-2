@@ -1,0 +1,1 @@
+execute unless data storage tinkery:core constructor.craft.output if data storage tinkery:core constructor.blueprint{id:"hoe"} if predicate tinkery_data:recipes/constructor/hoe/wood/acacia run data modify storage tinkery:core constructor.craft.output set from storage tinkery:recipes constructor.hoe.wood.acacia

@@ -1,7 +1,7 @@
-execute if data storage tinkery:core item.format{id:"minecraft:wooden_pickaxe"} run function tinkery:item/_/format/defaults/pickaxe/wood
-execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:stone_pickaxe"} run function tinkery:item/_/format/defaults/pickaxe/stone
-execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:iron_pickaxe"} run function tinkery:item/_/format/defaults/pickaxe/iron
-execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:golden_pickaxe"} run function tinkery:item/_/format/defaults/pickaxe/gold
-execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:diamond_pickaxe"} run function tinkery:item/_/format/defaults/pickaxe/diamond
-execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:netherite_pickaxe"} run function tinkery:item/_/format/defaults/pickaxe/netherite
+execute if data storage tinkery:core item.format{id:"minecraft:wooden_hoe"} run function tinkery:item/_/format/defaults/hoe/wood
+execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:stone_hoe"} run function tinkery:item/_/format/defaults/hoe/stone
+execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:iron_hoe"} run function tinkery:item/_/format/defaults/hoe/iron
+execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:golden_hoe"} run function tinkery:item/_/format/defaults/hoe/gold
+execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:diamond_hoe"} run function tinkery:item/_/format/defaults/hoe/diamond
+execute if score #tinkery.format.tool_type_found lapis.const matches 0 if data storage tinkery:core item.format{id:"minecraft:netherite_hoe"} run function tinkery:item/_/format/defaults/hoe/netherite
 execute unless score #tinkery.format.tool_type_found lapis.const matches 0 unless data storage tinkery:core item.format.tag.Tinkery.Traits[0] run data modify storage tinkery:core item.format.tag.Tinkery.Traits set value ["mine","basic"]
