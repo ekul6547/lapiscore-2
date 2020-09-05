@@ -2,13 +2,17 @@
     "values": [
         "tinkery_data:attributes/durability/test_level_up",
         "tinkery_data:attributes/damage/test_level_up",
+        "tinkery_data:attributes/power/test_level_up",
         "tinkery_data:attributes/armor/test_level_up",
+        "tinkery_data:attributes/mending/test_level_up",
         "tinkery_data:attributes/efficiency/test_level_up",
         "tinkery_data:attributes/attack_speed/test_level_up",
         "tinkery_data:attributes/fortune/test_level_up",
         "tinkery_data:attributes/looting/test_level_up",
         "tinkery_data:attributes/knockback/test_level_up",
+        "tinkery_data:attributes/punch/test_level_up",
         "tinkery_data:attributes/fire_aspect/test_level_up",
+        "tinkery_data:attributes/flame/test_level_up",
         "tinkery_data:attributes/armor_toughness/test_level_up",
         "tinkery_data:attributes/knockback_resistance/test_level_up",
         "tinkery_data:attributes/feather_falling/test_level_up",
@@ -24,6 +28,7 @@
         "tinkery_data:attributes/sweeping_edge/test_level_up",
         "tinkery_data:attributes/movement_speed/test_level_up",
         "tinkery_data:attributes/silk_touch/test_level_up",
+        "tinkery_data:attributes/infinity/test_level_up",
         "tinkery_data:attributes/netherite_up/test_level_up",
         "tinkery_data:attributes/unbreakable/test_level_up"
     ]

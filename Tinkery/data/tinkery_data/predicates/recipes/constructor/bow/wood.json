@@ -1,0 +1,8 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "nbt": "{Items:[{Slot:4b,id:\"minecraft:stick\"},{Slot:5b,id:\"minecraft:string\"},{Slot:12b,id:\"minecraft:stick\"},{Slot:14b,id:\"minecraft:string\"},{Slot:22b,id:\"minecraft:stick\"},{Slot:23b,id:\"minecraft:string\"}]}"
+      }
+    }
+  }

@@ -1,0 +1,2 @@
+execute if data storage tinkery:core item.format{id:"minecraft:bow"} run function tinkery:item/_/format/defaults/bow/wood
+execute unless score #tinkery.format.tool_type_found lapis.const matches 0 unless data storage tinkery:core item.format.tag.Tinkery.Traits[0] run data modify storage tinkery:core item.format.tag.Tinkery.Traits set value ["ranged"]

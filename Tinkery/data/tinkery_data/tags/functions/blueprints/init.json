@@ -9,6 +9,7 @@
         "tinkery_data:blueprints/chestplate/init",
         "tinkery_data:blueprints/leggings/init",
         "tinkery_data:blueprints/boots/init",
-        "tinkery_data:blueprints/elytra/init"
+        "tinkery_data:blueprints/elytra/init",
+        "tinkery_data:blueprints/bow/init"
     ]
 }

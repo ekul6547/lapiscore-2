@@ -2,6 +2,7 @@
     "values": [
         "tinkery_data:attributes/durability/init",
         "tinkery_data:attributes/damage/init",
+        "tinkery_data:attributes/power/init",
         "tinkery_data:attributes/armor/init",
         "tinkery_data:attributes/mending/init",
         "tinkery_data:attributes/efficiency/init",
@@ -9,7 +10,9 @@
         "tinkery_data:attributes/fortune/init",
         "tinkery_data:attributes/looting/init",
         "tinkery_data:attributes/knockback/init",
+        "tinkery_data:attributes/punch/init",
         "tinkery_data:attributes/fire_aspect/init",
+        "tinkery_data:attributes/flame/init",
         "tinkery_data:attributes/armor_toughness/init",
         "tinkery_data:attributes/knockback_resistance/init",
         "tinkery_data:attributes/feather_falling/init",
@@ -28,6 +31,7 @@
         "tinkery_data:attributes/movement_speed/init",
         "tinkery_data:attributes/night_vision/init",
         "tinkery_data:attributes/silk_touch/init",
+        "tinkery_data:attributes/infinity/init",
         "tinkery_data:attributes/netherite_up/init",
         "tinkery_data:attributes/dolphins_grace/init",
         "tinkery_data:attributes/unbreakable/init"

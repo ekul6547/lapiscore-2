@@ -1,0 +1,1 @@
+execute unless data storage tinkery:core constructor.craft.output run function tinkery_data:constructor/bow/wood/test

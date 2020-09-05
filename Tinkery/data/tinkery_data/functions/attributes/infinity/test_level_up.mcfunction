@@ -1,0 +1,1 @@
+execute if data storage tinkery:recipes attributes.current{id:"infinity"} run function tinkery_data:attributes/infinity/do_level_up
