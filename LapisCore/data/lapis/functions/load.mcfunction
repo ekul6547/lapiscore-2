@@ -10,6 +10,7 @@ scoreboard objectives add lapis.prey dummy
 scoreboard objectives add lapis.prez dummy
 scoreboard objectives add lapis.rotx dummy
 scoreboard objectives add lapis.roty dummy
+scoreboard objectives add lapis.hide dummy
 
 
 #Stats
