@@ -1,21 +1,9 @@
-Give self mining fatigue to stop self from mining when durability is 1
-and weakness
-dont do Tinkery tick when items are "broken"
-
 Recipe Books
-
-Blank Blueprint recipe
-
-All block recipes
-
-All Blueprints
-
-Tool Index Custom Model Data
-
-All Constructor recipes
-
-Armor
 
 Smeltery
 
 All Smeltery Recipes
+
+Give self mining fatigue to stop self from mining when durability is 1
+and weakness
+dont do Tinkery tick when items are "broken"
