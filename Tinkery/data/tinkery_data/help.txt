@@ -53,6 +53,7 @@ TinkeryInit:{,
     ColorIndex: The start index of the custom model data. See above
     CustomModelData: Will override the ColorIndex,
     PreventLayers: Prevent attribute layers being added
+    PreventLayersFor: (array) Prevent specific attribute layers being added
 }
 
 Common Traits:

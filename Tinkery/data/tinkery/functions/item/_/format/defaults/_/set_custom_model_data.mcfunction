@@ -10,4 +10,5 @@ execute if data storage tinkery:core item.format.tag.TinkeryInit.CustomModelData
 execute store result storage tinkery:core item.format.tag.CustomModelData int 1 run scoreboard players get #tinkery.format.color_index lapis.const
 
 
+execute if data storage tinkery:core item.format.tag.TinkeryInit.PreventLayersFor run data modify storage tinkery:core item.format.tag.Tinkery.PreventLayersFor set from storage tinkery:core item.format.tag.TinkeryInit.PreventLayersFor
 execute if data storage tinkery:core item.format.tag.TinkeryInit.PreventLayers run data modify storage tinkery:core item.format.tag.Tinkery.PreventLayers set from storage tinkery:core item.format.tag.TinkeryInit.PreventLayers

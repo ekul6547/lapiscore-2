@@ -1,6 +1,7 @@
 {
     "values": [
         "tinkery_data:constructor/pickaxe/test",
+        "tinkery_data:constructor/axe/test",
         "tinkery_data:constructor/sword/test"
     ]
 }
