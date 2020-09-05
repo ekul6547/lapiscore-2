@@ -4,6 +4,13 @@
   "language.code": "en_us",
 
   "tinkery.attributes.combo.numeral": "%s %s",
-  "tinkery.attributes.combo.amount": "%s  %s / %s"
+  "tinkery.attributes.combo.amount": "%s  %s / %s",
+  "item.tinkery.oak_pickaxe": "Oak Pickaxe",
+  "item.tinkery.spruce_pickaxe": "Spruce Pickaxe",
+  "item.tinkery.birch_pickaxe": "Birch Pickaxe",
+  "item.tinkery.jungle_pickaxe": "Jungle Pickaxe",
+  "item.tinkery.acacia_pickaxe": "Acacia Pickaxe",
+  "item.tinkery.dark_oak_pickaxe": "Dark Oak Pickaxe",
+  "item.tinkery.blackstone_pickaxe": "Blackstone Pickaxe"
   
 }

@@ -1,7 +1,11 @@
 {
     "values": [
+        "tinkery_data:constructor/pickaxe/wood/init",
+        "tinkery_data:constructor/pickaxe/stone/init",
         "tinkery_data:constructor/pickaxe/iron/init",
         "tinkery_data:constructor/pickaxe/gold/init",
+        "tinkery_data:constructor/pickaxe/diamond/init",
+        "tinkery_data:constructor/pickaxe/netherite/init",
         "tinkery_data:constructor/sword/iron/init",
         "tinkery_data:constructor/sword/gold/init",
         "tinkery_data:constructor/boots/iron/init",

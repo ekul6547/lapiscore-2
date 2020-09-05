@@ -1,0 +1,12 @@
+execute unless data storage tinkery:core constructor.craft.output run function tinkery_data:constructor/pickaxe/wood/oak
+execute unless data storage tinkery:core constructor.craft.output run function tinkery_data:constructor/pickaxe/wood/spruce
+execute unless data storage tinkery:core constructor.craft.output run function tinkery_data:constructor/pickaxe/wood/birch
+execute unless data storage tinkery:core constructor.craft.output run function tinkery_data:constructor/pickaxe/wood/jungle
+execute unless data storage tinkery:core constructor.craft.output run function tinkery_data:constructor/pickaxe/wood/acacia
+execute unless data storage tinkery:core constructor.craft.output run function tinkery_data:constructor/pickaxe/wood/dark_oak
+execute unless data storage tinkery:core constructor.craft.output run function tinkery_data:constructor/pickaxe/stone/cobblestone
+execute unless data storage tinkery:core constructor.craft.output run function tinkery_data:constructor/pickaxe/stone/blackstone
+execute unless data storage tinkery:core constructor.craft.output run function tinkery_data:constructor/pickaxe/iron/test
+execute unless data storage tinkery:core constructor.craft.output run function tinkery_data:constructor/pickaxe/gold/test
+execute unless data storage tinkery:core constructor.craft.output run function tinkery_data:constructor/pickaxe/diamond/test
+execute unless data storage tinkery:core constructor.craft.output run function tinkery_data:constructor/pickaxe/netherite/test

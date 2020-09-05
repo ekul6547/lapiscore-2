@@ -1,17 +1,5 @@
 {
     "values": [
-        "tinkery_data:constructor/pickaxe/iron/test",
-        "tinkery_data:constructor/pickaxe/gold/test",
-        "tinkery_data:constructor/sword/iron/test",
-        "tinkery_data:constructor/sword/gold/test",
-        "tinkery_data:constructor/boots/iron/test",
-        "tinkery_data:constructor/boots/gold/test",
-        "tinkery_data:constructor/leggings/iron/test",
-        "tinkery_data:constructor/leggings/gold/test",
-        "tinkery_data:constructor/chestplate/iron/test",
-        "tinkery_data:constructor/chestplate/gold/test",
-        "tinkery_data:constructor/chestplate/elytra/test",
-        "tinkery_data:constructor/helmet/iron/test",
-        "tinkery_data:constructor/helmet/gold/test"
+        "tinkery_data:constructor/pickaxe/test"
     ]
 }
