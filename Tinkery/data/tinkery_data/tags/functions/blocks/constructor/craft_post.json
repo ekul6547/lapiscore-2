@@ -5,6 +5,7 @@
         "tinkery_data:constructor/shovel/test",
         "tinkery_data:constructor/hoe/test",
         "tinkery_data:constructor/sword/test",
+        "tinkery_data:constructor/chestplate/test",
         "tinkery_data:constructor/helmet/test"
     ]
 }
