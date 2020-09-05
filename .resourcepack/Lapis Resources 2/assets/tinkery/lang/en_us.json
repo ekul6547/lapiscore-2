@@ -5,12 +5,21 @@
 
   "tinkery.attributes.combo.numeral": "%s %s",
   "tinkery.attributes.combo.amount": "%s  %s / %s",
+  
   "item.tinkery.oak_pickaxe": "Oak Pickaxe",
   "item.tinkery.spruce_pickaxe": "Spruce Pickaxe",
   "item.tinkery.birch_pickaxe": "Birch Pickaxe",
   "item.tinkery.jungle_pickaxe": "Jungle Pickaxe",
   "item.tinkery.acacia_pickaxe": "Acacia Pickaxe",
   "item.tinkery.dark_oak_pickaxe": "Dark Oak Pickaxe",
-  "item.tinkery.blackstone_pickaxe": "Blackstone Pickaxe"
+  "item.tinkery.blackstone_pickaxe": "Blackstone Pickaxe",
+
+  "item.tinkery.oak_sword": "Oak Sword",
+  "item.tinkery.spruce_sword": "Spruce Sword",
+  "item.tinkery.birch_sword": "Birch Sword",
+  "item.tinkery.jungle_sword": "Jungle Sword",
+  "item.tinkery.acacia_sword": "Acacia Sword",
+  "item.tinkery.dark_oak_sword": "Dark Oak Sword",
+  "item.tinkery.blackstone_sword": "Blackstone Sword"
   
 }
