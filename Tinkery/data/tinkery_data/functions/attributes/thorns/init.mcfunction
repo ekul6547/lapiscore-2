@@ -11,7 +11,7 @@ function tinkery:attributes/create/append
 
 function tinkery:book/attributes/page/reset
 data modify storage tinkery:core bookmaker.attribute.title set value '{"text":"Spikey","color":"dark_green"}'
-data modify storage tinkery:core bookmaker.attribute.info set value '{"text":"Reduce damage from fire.\\nMax level gives fire resistance."}'
+data modify storage tinkery:core bookmaker.attribute.info set value '{"text":"Deals damage back to any attackers."}'
 data modify storage tinkery:core bookmaker.attribute.items[0] set value '["",{"text":"\\ud0d1","color":"white","font":"lapis:icons","hoverEvent":{"action":"show_text","value":["",{"translate": "block.minecraft.cactus","color":"white"}]}}]'
 data modify storage tinkery:core bookmaker.attribute.amount set value 48
 data modify storage tinkery:core bookmaker.attribute.maxLevel set value 5
