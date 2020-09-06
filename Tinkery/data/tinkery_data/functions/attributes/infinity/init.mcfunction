@@ -15,4 +15,5 @@ data modify storage tinkery:core bookmaker.attribute.info set value '{"text":"Gr
 data modify storage tinkery:core bookmaker.attribute.items[0] set value '["",{"text":"\\ud362","color":"white","font":"lapis:icons","hoverEvent":{"action":"show_text","value":["",{"translate": "item.minecraft.ender_eye","color":"white"}]}}]'
 data modify storage tinkery:core bookmaker.attribute.amount set value 12
 data modify storage tinkery:core bookmaker.attribute.maxLevel set value 1
+data modify storage tinkery:core bookmaker.attribute.applies set value '{"text":"Bows"}'
 function tinkery:book/attributes/page/make_one_time

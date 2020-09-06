@@ -15,4 +15,5 @@ data modify storage tinkery:core bookmaker.attribute.info set value '{"text":"Re
 data modify storage tinkery:core bookmaker.attribute.items[0] set value '["",{"text":"\\ud3b0","color":"white","font":"lapis:icons","hoverEvent":{"action":"show_text","value":["",{"translate": "item.minecraft.magma_cream","color":"white"}]}}]'
 data modify storage tinkery:core bookmaker.attribute.amount set value 14
 data modify storage tinkery:core bookmaker.attribute.maxLevel set value 5
+data modify storage tinkery:core bookmaker.attribute.applies set value '{"text":"Armor"}'
 function tinkery:book/attributes/page/make

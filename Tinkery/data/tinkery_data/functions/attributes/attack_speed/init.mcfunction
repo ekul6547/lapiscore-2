@@ -17,4 +17,5 @@ data modify storage tinkery:core bookmaker.attribute.items[0] set value '["",{"t
 data modify storage tinkery:core bookmaker.attribute.items[1] set value '{"text":"\\ud223","color":"white","font":"lapis:icons","hoverEvent":{"action":"show_text","value":["",{"translate": "block.minecraft.redstone_block","color":"white"}]}}'
 data modify storage tinkery:core bookmaker.attribute.amount set value 40
 data modify storage tinkery:core bookmaker.attribute.maxLevel set value 10
+data modify storage tinkery:core bookmaker.attribute.applies set value '{"text":"Melee"}'
 function tinkery:book/attributes/page/make

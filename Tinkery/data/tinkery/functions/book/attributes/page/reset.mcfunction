@@ -4,4 +4,5 @@ data modify storage tinkery:core bookmaker.attribute.info set value ''
 data modify storage tinkery:core bookmaker.attribute.amount set value 32
 data modify storage tinkery:core bookmaker.attribute.maxLevel set value 10
 data modify storage tinkery:core bookmaker.attribute.below set value ''
+data modify storage tinkery:core bookmaker.attribute.appliesTo set value ''
 data modify block 20000002 1 20000000 Text1 set value ''

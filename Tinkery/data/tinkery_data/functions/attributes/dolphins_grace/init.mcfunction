@@ -15,4 +15,5 @@ data modify storage tinkery:core bookmaker.attribute.info set value '{"text":"Sw
 data modify storage tinkery:core bookmaker.attribute.items[0] set value '["",{"text":"\\ud389","color":"white","font":"lapis:icons","hoverEvent":{"action":"show_text","value":["",{"translate": "item.minecraft.heart_of_the_sea","color":"white"}]}}]'
 data modify storage tinkery:core bookmaker.attribute.amount set value 8
 data modify storage tinkery:core bookmaker.attribute.maxLevel set value 1
+data modify storage tinkery:core bookmaker.attribute.applies set value '{"text":"Chestplate"}'
 function tinkery:book/attributes/page/make_one_time

@@ -14,4 +14,5 @@ data modify storage tinkery:core bookmaker.attribute.title set value '{"text":"N
 data modify storage tinkery:core bookmaker.attribute.info set value '{"text":"Upgrade to Netherite mining level and items cannot be destroyed in lava."}'
 data modify storage tinkery:core bookmaker.attribute.items[0] set value '{"text":"\\ud3cd","color":"white","font":"lapis:icons","hoverEvent":{"action":"show_text","value":["",{"translate": "item.minecraft.netherite_ingot","color":"white"}]}}'
 data modify storage tinkery:core bookmaker.attribute.amount set value 3
+data modify storage tinkery:core bookmaker.attribute.applies set value '{"text":"Tools and Armor"}'
 function tinkery:book/attributes/page/make_one_time

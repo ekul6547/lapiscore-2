@@ -15,4 +15,5 @@ data modify storage tinkery:core bookmaker.attribute.info set value '{"text":"Ch
 data modify storage tinkery:core bookmaker.attribute.items[0] set value '["",{"text":"\\ud187","color":"white","font":"lapis:icons","hoverEvent":{"action":"show_text","value":["",{"translate": "block.minecraft.iron_bars","color":"white"}]}}]'
 data modify storage tinkery:core bookmaker.attribute.amount set value 64
 data modify storage tinkery:core bookmaker.attribute.maxLevel set value 1
+data modify storage tinkery:core bookmaker.attribute.applies set value '{"text":"Tridents"}'
 function tinkery:book/attributes/page/make

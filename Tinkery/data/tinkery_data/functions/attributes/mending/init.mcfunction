@@ -17,4 +17,5 @@ data modify storage tinkery:core bookmaker.attribute.items[0] set value '{"text"
 data modify storage tinkery:core bookmaker.attribute.items[1] set value '{"text":"\\ud38a","color":"white","font":"lapis:icons","hoverEvent":{"action":"show_text","value":["",{"translate": "item.minecraft.honeycomb","color":"white"}]}}'
 data modify storage tinkery:core bookmaker.attribute.amount set value '{"text":"32 of each."}'
 data modify storage tinkery:core bookmaker.attribute.maxLevel set value 5
+data modify storage tinkery:core bookmaker.attribute.applies set value '{"text":"All"}'
 function tinkery:book/attributes/page/make
