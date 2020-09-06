@@ -1,13 +1,12 @@
 function tinkery:attributes/create/reset
 data modify storage tinkery:recipes attributes.new.id set value "attack_speed"
 data modify storage tinkery:recipes attributes.new.name set value '{"text":"Speedy","color":"dark_red"}'
-data modify storage tinkery:recipes attributes.new.operation set value 2
-data modify storage tinkery:recipes attributes.new.base set value 40
-data modify storage tinkery:recipes attributes.new.modi set value 2
-data modify storage tinkery:recipes attributes.new.offset set value 0
-data modify storage tinkery:recipes attributes.new.maxLevel set value 5
-data modify storage tinkery:recipes attributes.new.loreColor set value 12
-data modify storage tinkery:recipes attributes.new.layerIndex set value 4
+data modify storage tinkery:recipes attributes.new.operation set value 1
+data modify storage tinkery:recipes attributes.new.base set value 8
+data modify storage tinkery:recipes attributes.new.modi set value 4
+data modify storage tinkery:recipes attributes.new.offset set value 40
+data modify storage tinkery:recipes attributes.new.maxLevel set value 10
+data modify storage tinkery:recipes attributes.new.loreColor set value 4
 function tinkery:attributes/create/append
 
 function tinkery:book/attributes/page/reset
