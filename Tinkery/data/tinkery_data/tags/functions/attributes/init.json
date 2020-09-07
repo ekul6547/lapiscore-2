@@ -36,6 +36,7 @@
         "tinkery_data:attributes/night_vision/init",
         "tinkery_data:attributes/silk_touch/init",
         "tinkery_data:attributes/infinity/init",
+        "tinkery_data:attributes/auto_step/init",
         "tinkery_data:attributes/netherite_up/init",
         "tinkery_data:attributes/dolphins_grace/init",
         "tinkery_data:attributes/unbreakable/init"

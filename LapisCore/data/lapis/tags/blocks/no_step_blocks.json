@@ -5,6 +5,8 @@
     "#minecraft:stairs",
     "minecraft:end_portal",
     "minecraft:end_portal_frame",
+    "#minecraft:beds",
+    "minecraft:soul_sand",
     "#lapis:step_into_safe_blocks"
   ]
 }
