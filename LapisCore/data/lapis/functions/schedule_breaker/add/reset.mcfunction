@@ -1,0 +1,1 @@
+data modify storage lapis:core schedule_breaker.current set value {locations:[],rem:0,fortune:0}

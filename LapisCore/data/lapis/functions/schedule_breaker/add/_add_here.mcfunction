@@ -1,0 +1,3 @@
+execute if predicate lapis:location/dimension/overworld run data modify storage lapis:core schedule_breaker.overworld append from storage lapis:core schedule_breaker.current
+execute if predicate lapis:location/dimension/the_end run data modify storage lapis:core schedule_breaker.end append from storage lapis:core schedule_breaker.current
+execute if predicate lapis:location/dimension/the_nether run data modify storage lapis:core schedule_breaker.nether append from storage lapis:core schedule_breaker.current

@@ -1,0 +1,1 @@
+execute unless data storage lapis:core schedule_breaker run data modify storage lapis:core schedule_breaker set value {overworld:[],nether:[],end:[]}
