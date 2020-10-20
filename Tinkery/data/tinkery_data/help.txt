@@ -198,7 +198,7 @@ loreColor -  sets the numeral/amount of the lore to this colour:
 Tick:
 #tinkery_data:tick/slot/XXXX
 Runs every tick when equipped in slots
-Item found at `tinkery:core tick.item`
+Item found at `lapis:core tick.item`
 - mainhand
 - offhand
 - helmet

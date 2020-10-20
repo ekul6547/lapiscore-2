@@ -1,1 +1,3 @@
-execute if data storage tinkery:core tick.item.tag.Tinkery.Attributes[{id:"force_feeding"}] run function tinkery_data:attributes/feeding/do_level_check
+execute store result score #tinkery.attribute.force_feeding.level lapis.const run data get storage lapis:core tick.item.tag.Tinkery.Attributes[{id:"force_feeding"}].level
+execute store result score #tinkery.attribute.force_feeding.amount lapis.const run data get entity @s foodLevel
+execute if score #tinkery.attribute.force_feeding.level lapis.const matches 1.. if score #tinkery.attribute.force_feeding.amount lapis.const matches ..16 run effect give @s saturation 10 0 true

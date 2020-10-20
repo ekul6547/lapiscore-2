@@ -1,2 +1,0 @@
-execute store result score #tinkery.attribute.respiration.level lapis.const run data get storage tinkery:core tick.item.tag.Tinkery.Attributes[{id:"respiration"}].level
-execute if score #tinkery.attribute.respiration.level lapis.const matches 5.. run effect give @s water_breathing 11 0 true

@@ -4,9 +4,9 @@ scoreboard players operation #tinkery.modifier.repair.damage lapis.const -= #tin
 execute if score #tinkery.modifier.repair.damage lapis.const matches ..-1 run scoreboard players set #tinkery.modifier.repair.damage lapis.const 0
 execute store result storage tinkery:core modifier.test.tool.tag.ctc.tool.damage int 1 run scoreboard players get #tinkery.modifier.repair.damage lapis.const
 
-data modify storage tinkery:core durability.item set from storage tinkery:core modifier.test.tool
-function tinkery:durability/calc/recalc
-data modify storage tinkery:core lore.item set from storage tinkery:core durability.item
+data modify storage lapis:core durability.item set from storage tinkery:core modifier.test.tool
+function lapis:durability/calc/recalc
+data modify storage tinkery:core lore.item set from storage lapis:core durability.item
 function tinkery:lore/lore_item
 data modify block ~ ~ ~ Items append from storage tinkery:core lore.item
 function tinkery:blocks/modifier/craft/repair/reduce

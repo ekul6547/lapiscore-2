@@ -1,2 +1,2 @@
 # Chest tick
-execute if score #lapis.timer.10_seconds lapis.const matches 0 run function tinkery_data:attributes/dolphins_grace/tick
+execute if data storage lapis:core tick.item.tag.Tinkery.Attributes[{id:"dolphins_grace"}] if score #lapis.timer.10_seconds lapis.const matches 0 run function tinkery_data:attributes/dolphins_grace/tick

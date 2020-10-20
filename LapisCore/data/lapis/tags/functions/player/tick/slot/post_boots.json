@@ -1,0 +1,6 @@
+{
+    "values": [
+        "#lapis:player/tick/slot/post_any",
+        "lapis:durability/post_tick/boots"
+    ]
+}

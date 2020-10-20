@@ -1,4 +1,4 @@
 # Head tick
-execute if score #lapis.timer.10_seconds lapis.const matches 0 run function tinkery_data:attributes/feeding/tick
-execute if score #lapis.timer.10_seconds lapis.const matches 0 run function tinkery_data:attributes/respiration/tick
-execute if score #lapis.timer.5_seconds lapis.const matches 0 run function tinkery_data:attributes/night_vision/tick
+execute if data storage lapis:core tick.item.tag.Tinkery.Attributes[{id:"force_feeding"}] if score #lapis.timer.10_seconds lapis.const matches 0 run function tinkery_data:attributes/feeding/tick
+execute if data storage lapis:core tick.item.tag.Tinkery.Attributes[{id:"respiration"}] if score #lapis.timer.10_seconds lapis.const matches 0 run function tinkery_data:attributes/respiration/tick
+execute if data storage lapis:core tick.item.tag.Tinkery.Attributes[{id:"night_vision"}] if score #lapis.timer.5_seconds lapis.const matches 0 run function tinkery_data:attributes/night_vision/tick
