@@ -1,5 +1,6 @@
 {
     "values": [
+        "tinkery_data:arrow/test",
         "tinkery_data:attributes/durability/test",
         "tinkery_data:attributes/damage/test",
         "tinkery_data:attributes/power/test",

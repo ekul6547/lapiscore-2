@@ -1,0 +1,2 @@
+scoreboard players set #lapis.uuid.match lapis.const 0
+execute if score #lapis.uuid lapis.uuid.0.0 = #lapis.uuid lapis.uuid.1.0 if score #lapis.uuid lapis.uuid.0.1 = #lapis.uuid lapis.uuid.1.1 if score #lapis.uuid lapis.uuid.0.2 = #lapis.uuid lapis.uuid.1.2 if score #lapis.uuid lapis.uuid.0.3 = #lapis.uuid lapis.uuid.1.3 run scoreboard players set #lapis.uuid.match lapis.const 1

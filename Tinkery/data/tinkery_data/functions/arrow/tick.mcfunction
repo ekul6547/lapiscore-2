@@ -1,0 +1,1 @@
+execute if entity @s[predicate=tinkery_data:arrows/lightning] run function tinkery_data:arrow/lightning/summon

@@ -1,0 +1,2 @@
+data modify storage tinkery:core modifier.test.tool merge value {id:"minecraft:tipped_arrow",tag:{display:{Name:'{"text":"Lightning Arrow","italic":false}',Lore:["Summons Lightning where it strikes"]},HideFlags:63,CustomPotionEffects:[{Id:27b,Amplifier:0,Duration:99997}],CustomModelData:1001}}
+data modify storage tinkery:core modifier.output set value {id:"custom",type:"arrow",remove:"equal"}

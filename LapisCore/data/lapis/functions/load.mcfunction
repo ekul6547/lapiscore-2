@@ -12,6 +12,19 @@ scoreboard objectives add lapis.rotx dummy
 scoreboard objectives add lapis.roty dummy
 scoreboard objectives add lapis.hide dummy
 
+#UUID
+scoreboard objectives add lapis.uuid.0.0 dummy
+scoreboard objectives add lapis.uuid.0.1 dummy
+scoreboard objectives add lapis.uuid.0.2 dummy
+scoreboard objectives add lapis.uuid.0.3 dummy
+scoreboard objectives add lapis.uuid.1.0 dummy
+scoreboard objectives add lapis.uuid.1.1 dummy
+scoreboard objectives add lapis.uuid.1.2 dummy
+scoreboard objectives add lapis.uuid.1.3 dummy
+
+scoreboard objectives add lapis.bowtracker dummy
+scoreboard players set #lapis.bowtracker lapis.const 1
+function #lapis:bowtracker/load
 
 #Stats
 scoreboard objectives add lapis.leave minecraft.custom:minecraft.leave_game

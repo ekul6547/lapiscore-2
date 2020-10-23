@@ -1,6 +1,5 @@
 {
 	"values": [
-		"tinkery:_run/run_entity_all_dimensions",
 		"tinkery_data:arrow/tick"
 	]
 }
