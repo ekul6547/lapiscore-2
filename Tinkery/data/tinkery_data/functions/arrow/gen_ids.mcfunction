@@ -5,3 +5,7 @@ scoreboard players operation #tinkery.bowtype.lightning lapis.bowtracker = #lapi
 # Designate explosive id
 function lapis:bowtracker/gen_id
 scoreboard players operation #tinkery.bowtype.explosive lapis.bowtracker = #lapis.bowtracker lapis.bowtracker
+
+# Designate teleport id
+function lapis:bowtracker/gen_id
+scoreboard players operation #tinkery.bowtype.teleport lapis.bowtracker = #lapis.bowtracker lapis.bowtracker

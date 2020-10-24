@@ -5,7 +5,7 @@ execute store result score #lapis.uuid lapis.uuid.0.2 run data get entity @s Own
 execute store result score #lapis.uuid lapis.uuid.0.3 run data get entity @s Owner[3]
 scoreboard players set #lapis.uuid.match lapis.const 0
 data modify storage lapis:core bowtracker.arrow set from entity @s
-execute as @e[type=#lapis:track_bows] run function lapis:bowtracker/find_owner
+execute at @s as @e[type=#lapis:track_bows] run function lapis:bowtracker/find_owner
 scoreboard players operation @s lapis.bowtracker = #lapis.bowtracker.found lapis.const
 # tellraw @p ["",{"text": "Pre: "},{"nbt": "CustomPotionEffects","entity": "@s"}]
 # tellraw @p ["",{"text": "Pre: "},{"nbt": "CustomPotionEffects[{Id:27b,Amplifier:0b}].Duration","entity": "@s"}]

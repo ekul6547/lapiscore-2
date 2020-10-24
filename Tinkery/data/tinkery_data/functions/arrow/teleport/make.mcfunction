@@ -1,0 +1,3 @@
+data modify storage tinkery:core modifier.test.tool merge value {id:"minecraft:tipped_arrow",tag:{display:{Name:'{"text":"Teleportation Arrow","italic":false}',Lore:["Teleports you to where it lands. Has to land on a block."]},HideFlags:63,CustomPotionEffects:[{Id:27b,Amplifier:0b,Duration:1000}],CustomModelData:404002}}
+execute store result storage tinkery:core modifier.test.tool.tag.CustomPotionEffects[{Id:27b}].Duration int 10000 run scoreboard players get #tinkery.bowtype.teleport lapis.bowtracker
+data modify storage tinkery:core modifier.output set value {id:"custom",type:"arrow",remove:"equal"}

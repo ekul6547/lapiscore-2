@@ -1,0 +1,1 @@
+execute as @e[type=#minecraft:skeletons,tag=!tinkery.tried.ender.skele,limit=1] run function tinkery_data:arrow/teleport/ender_skele/diff_test

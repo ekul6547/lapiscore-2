@@ -1,0 +1,2 @@
+summon wither_skeleton ~ ~ ~ {HandItems:[{id:"minecraft:bow",Count:1b,tag:{display:{Name:'{"text": "Teleportation Bow","italic": false}'}}}],Tags:["tinkery.tried.ender.skele","ender.skeleton","ender.skeleton.new"],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:"MHF_Enderman",LapisRemove:1b}}]}
+execute as @e[type=wither_skeleton,tag=ender.skeleton.new,limit=1] run function tinkery_data:arrow/teleport/ender_skele/with
