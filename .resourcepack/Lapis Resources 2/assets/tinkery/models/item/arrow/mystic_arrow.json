@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "lapis:invisible",
+        "layer1": "tinkery:item/arrow/mystic_arrow"
+    }
+}

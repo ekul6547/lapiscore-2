@@ -1,0 +1,13 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/tipped_arrow_head",
+        "layer1": "item/tipped_arrow_base"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 404000}, "model": "tinkery:item/arrow/explosive_arrow"},
+        { "predicate": {"custom_model_data": 404001}, "model": "tinkery:item/arrow/lightning_arrow"},
+        { "predicate": {"custom_model_data": 404002}, "model": "tinkery:item/arrow/teleport_arrow"},
+        { "predicate": {"custom_model_data": 404003}, "model": "tinkery:item/arrow/mystic_arrow"}
+    ]
+}

@@ -1,1 +1,1 @@
-execute if data storage tinkery:core modifier.test.tool{id:"minecraft:arrow"} run function tinkery_data:arrow/call
+execute if data storage tinkery:core modifier.test.tool{id:"minecraft:arrow"} run function tinkery_data:arrow/call_make

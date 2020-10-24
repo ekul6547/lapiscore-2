@@ -54,4 +54,6 @@ function tinkery:clean
 
 scoreboard players enable @a TinkeryBook
 
+execute unless score #tinkery.arrow.explosive_damage lapis.const matches 1.. run scoreboard players set #tinkery.arrow.explosive_damage lapis.const 0
+
 tellraw @a ["",{"text":"Loaded "},{"text":"[Tinkery] v1.0","color":"green","clickEvent":{"action":"run_command","value":"/trigger TinkeryBook"},"hoverEvent":{"action":"show_text","value":"Click here to get the tutorial book"}},{"text":" By RE:Lapis","color":"gray"}]

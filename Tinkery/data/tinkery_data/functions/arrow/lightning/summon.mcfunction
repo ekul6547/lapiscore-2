@@ -1,3 +1,3 @@
 summon lightning_bolt ~ ~ ~
-execute if entity @s[type=arrow] run kill @s
-function tinkery_data:arrow/_cleareffect
+function tinkery_data:arrow/_kill_if_arrow
+function tinkery_data:arrow/_clear_unluck

@@ -1,1 +1,0 @@
-execute if data storage tinkery:core modifier.test.first{id:"minecraft:end_rod"} run function tinkery_data:arrow/lightning/make
