@@ -1,0 +1,2 @@
+give @s tipped_arrow{CustomPotionEffects:[{Id:15,Amplifier:0,Duration:200}],display:{Name:'{"text":"Arrow of Blindness","italic":false}',Lore:['[{"text":"Blindness (0:10)","italic":false,"color":"red"}]']},HideFlags:32,CustomModelData:404004} 1 
+clear @s tipped_arrow{CustomPotionEffects:[{Id:15b, Amplifier:0b, ShowIcon: 1b, Ambient: 0b, ShowParticles: 1b}]} 1

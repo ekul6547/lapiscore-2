@@ -8,6 +8,9 @@
         { "predicate": {"custom_model_data": 404000}, "model": "tinkery:item/arrow/explosive_arrow"},
         { "predicate": {"custom_model_data": 404001}, "model": "tinkery:item/arrow/lightning_arrow"},
         { "predicate": {"custom_model_data": 404002}, "model": "tinkery:item/arrow/teleport_arrow"},
-        { "predicate": {"custom_model_data": 404003}, "model": "tinkery:item/arrow/mystic_arrow"}
+        { "predicate": {"custom_model_data": 404003}, "model": "tinkery:item/arrow/mystic_arrow"},
+        { "predicate": {"custom_model_data": 404004}, "model": "tinkery:item/arrow/blindness_arrow"},
+        { "predicate": {"custom_model_data": 404005}, "model": "tinkery:item/arrow/nausea_arrow"},
+        { "predicate": {"custom_model_data": 404006}, "model": "tinkery:item/arrow/levitation_arrow"}
     ]
 }

@@ -35,6 +35,78 @@
             "chars": [
                 "\ud100"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "tinkery:item/arrow/lightning_arrow.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud200"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "tinkery:item/arrow/explosive_arrow.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud201"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "tinkery:item/arrow/teleport_arrow.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud202"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "tinkery:item/arrow/mystic_arrow.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud203"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "tinkery:item/arrow/tipped_arrow_base.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud204"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "tinkery:item/arrow/blindness_arrow.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud205"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "tinkery:item/arrow/nausea_arrow.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud206"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "tinkery:item/arrow/levitation_arrow.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\ud207"
+            ]
         }
     ]
 }

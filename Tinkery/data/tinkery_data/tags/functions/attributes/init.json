@@ -1,5 +1,6 @@
 {
     "values": [
+        "tinkery_data:arrow/book",
         "tinkery_data:attributes/durability/init",
         "tinkery_data:attributes/damage/init",
         "tinkery_data:attributes/power/init",

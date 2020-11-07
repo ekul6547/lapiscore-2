@@ -1,0 +1,3 @@
+execute if data entity @s Inventory[{id:"minecraft:tipped_arrow",tag:{CustomPotionEffects:[{Id:15b, Amplifier:0b, ShowIcon: 1b, Ambient: 0b, ShowParticles: 1b}]}}] run function tinkery_data:arrow/potion/replace_blindness
+execute if data entity @s Inventory[{id:"minecraft:tipped_arrow",tag:{CustomPotionEffects:[{Id:9b, Amplifier:0b, ShowIcon: 1b, Ambient: 0b, ShowParticles: 1b}]}}] run function tinkery_data:arrow/potion/replace_nausea
+execute if data entity @s Inventory[{id:"minecraft:tipped_arrow",tag:{CustomPotionEffects:[{Id:25b, Amplifier:0b, ShowIcon: 1b, Ambient: 0b, ShowParticles: 1b}]}}] run function tinkery_data:arrow/potion/replace_levitation

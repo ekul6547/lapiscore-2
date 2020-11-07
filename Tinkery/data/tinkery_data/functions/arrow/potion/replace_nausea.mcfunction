@@ -1,0 +1,2 @@
+give @s tipped_arrow{CustomPotionEffects:[{Id:9,Amplifier:0,Duration:600}],display:{Name:'{"text":"Arrow of Nausea","italic":false}',Lore:['[{"text":"Nausea (0:30)","italic":false,"color":"red"}]']},HideFlags:32,CustomModelData:404005} 1 
+clear @s tipped_arrow{CustomPotionEffects:[{Id:9b, Amplifier:0b, ShowIcon: 1b, Ambient: 0b, ShowParticles: 1b}]} 1

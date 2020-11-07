@@ -1,0 +1,3 @@
+data modify block 20000002 1 20000000 Text1 set value '["",{"nbt":"bookmaker.attribute.title","storage":"tinkery:core","interpret":true,"underlined": true},{"text":"\\n\\n","font":"lapis:icons","color":"white"},{"nbt":"bookmaker.attribute.info","storage":"tinkery:core","interpret":true},{"text":"\\n\\n"},{"nbt":"bookmaker.attribute.below","storage":"tinkery:core","interpret":true}]'
+# tellraw @p {"nbt":"Text1","block":"20000002 1 20000000","interpret":true}
+data modify storage lapis:core bookmaker.create.Item.tag.pages append from block 20000002 1 20000000 Text1

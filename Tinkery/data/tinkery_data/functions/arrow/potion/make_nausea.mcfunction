@@ -1,0 +1,2 @@
+data modify storage tinkery:core modifier.test.tool merge value {id:"minecraft:tipped_arrow",tag:{CustomPotionEffects:[{Id:9,Amplifier:0,Duration:600}],display:{Name:'{"text":"Arrow of Nausea","italic":false}',Lore:['[{"text":"Nausea (0:30)","italic":false,"color":"red"}]']},HideFlags:32,CustomModelData:404005}}
+data modify storage tinkery:core modifier.output set value {id:"custom",type:"arrow",remove:"equal"}
